@@ -2,7 +2,10 @@
   {
     "id": "surprise_me",
     "name": "Surprise Me!",
+    "category": "trending",
     "isAI": true,
+    "requiresCredits": true,
+    "loadingMessage": "Applying surprise edit...",
     "promptTemplate": {
       "prefix": "Make this image go viral. It should be engaging, interesting, and shareable."
     },
@@ -11,7 +14,10 @@
   {
     "id": "3d_figurine",
     "name": "3D Figurine",
+    "category": "trending",
     "isAI": true,
+    "requiresCredits": true,
+    "loadingMessage": "Creating 3D figurine...",
     "promptTemplate": {
       "prefix": "A realistic 3D figurine of the person(s) in the photo, with a high level of detail and a matte finish. The figurine is posed on a simple, clean background, with soft studio lighting. Emphasize realistic sculpted facial features and lifelike proportions."
     },
@@ -20,7 +26,10 @@
   {
     "id": "3d_figurine_plus",
     "name": "3D Figurine+",
+    "category": "trending",
     "isAI": true,
+    "requiresCredits": true,
+    "loadingMessage": "Creating 3D figurine combo...",
     "promptTemplate": {
       "prefix": "Create a 1/7 scale commercialized figurine of the character(s) in the picture, in a realistic style, in a real environment. The figurine is placed on a computer desk. The figurine has a round transparent acrylic base, with no text on the base. The content on the computer screen is a 3D modeling process of this figurine. Next to the computer screen is a toy packaging box, designed in a style reminiscent of high-quality collectible figures, printed with original artwork. The packaging features two-dimensional flat illustrations."
     },
@@ -29,7 +38,10 @@
   {
     "id": "game_hero",
     "name": "Game Hero",
+    "category": "trending",
     "isAI": true,
+    "requiresCredits": true,
+    "loadingMessage": "Transforming into fantasy game hero...",
     "promptTemplate": {
       "prefix": "Turn the person(s) in this image into a fantasy video game hero."
     },
@@ -38,7 +50,10 @@
   {
     "id": "astronaut",
     "name": "Astronaut",
+    "category": "trending",
     "isAI": true,
+    "requiresCredits": true,
+    "loadingMessage": "Transforming into astronaut...",
     "promptTemplate": {
       "prefix": "Turn the person(s) in this image into a futuristic astronaut portrait wearing a suit with a reflective helmet visor, floating in space with Earth in the background. The image should have realistic lighting and shadows, with high detail on the suit and helmet. Highly detailed, cinematic, photo-realistic."
     },
@@ -47,7 +62,10 @@
   {
     "id": "plush_toy",
     "name": "Plush Toy",
+    "category": "trending",
     "isAI": true,
+    "requiresCredits": true,
+    "loadingMessage": "Creating chibi plush toy...",
     "promptTemplate": {
       "prefix": "Create a chibi figurine version of the person in the photo, with an oversized head, tiny body proportions, and an exaggerated cute smile. The figurine has a soft, plush-toy texture with visible seams and button eyes. The background is a playful, cozy setting with colorful toy blocks and pastel colors."
     },
@@ -56,7 +74,10 @@
   {
     "id": "pop_star",
     "name": "Pop Star",
+    "category": "trending",
     "isAI": true,
+    "requiresCredits": true,
+    "loadingMessage": "Transforming into pop star...",
     "promptTemplate": {
       "prefix": "Turn the person(s) in this image into a pop star performing on a small stage. They are holding a microphone, with vibrant concert lights and a spotlight shining on them, with a crowd of cheering fans. Highly detailed, cinematic, dynamic lighting, ultra-realistic."
     },
