@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dunge - Privacy Policy</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background:#f7fafc;
+      color:#0f172a;
+      margin:0;
+      padding:24px;
+      -webkit-font-smoothing:antialiased;
+    }
+    .card {
+      max-width:900px;
+      margin:24px auto;
+      background:white;
+      padding:28px;
+      border-radius:12px;
+      box-shadow:0 8px 30px rgba(15,23,42,0.06);
+    }
+    h1 { color:#7c3aed; margin:0 0 8px 0; font-size:28px; }
+    .meta { color:#475569; margin-bottom:18px; }
+    h2 { color:#0f172a; margin-top:22px; margin-bottom:8px; font-size:18px; }
+    p { margin:10px 0; color:#334155; line-height:1.6; }
+    ul { margin:8px 0 12px 20px; }
+    li { margin:7px 0; }
+    a { color:#7c3aed; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .muted { color:#64748b; font-size:14px; }
+    .contact { background:#f1f5f9; padding:14px; border-radius:8px; margin-top:16px; }
+    footer { margin-top:22px; text-align:center; color:#94a3b8; font-size:13px; }
+    .note { font-size:13px; color:#475569; background:#fbf8ff; padding:10px; border-radius:8px; margin-top:12px; }
+  </style>
+</head>
+<body>
+  <!-- Based on Pawmpanion privacy policy. Reference: Pawmpanion privacy_policy.html. -->
+
+  <main class="card" role="main">
+    <header>
+      <h1>Dunge — Privacy Policy</h1>
+      <div class="meta">
+        Effective date: December 3, 2025<br>
+        Last updated: December 3, 2025
+      </div>
+    </header>
+
+    <p>Dunge ("we", "our", or "the App") is a narrative RPG where you play as a novice village healer. The app uses a combination of local storage and selective cloud services (for LLM-based narrative generation and subscription management). We respect your privacy and strive to be transparent about what we collect, why, and how you can manage your data.</p>
+
+    <h2>1. Summary — the quick version</h2>
+    <ul>
+      <li><strong>No ads.</strong> Dunge does not display advertising.</li>
+      <li><strong>Local-first game data:</strong> Game saves, character state, inventory, and local journals are stored on your device by default.</li>
+      <li><strong>Subscriptions:</strong> We use RevenueCat to manage purchases and entitlements (we do not handle payment card data directly).</li>
+      <li><strong>LLM calls:</strong> Narrative generation and optional TTS are performed by a cloud model (e.g., Gemini). See Section 3 for details.</li>
+    </ul>
+
+    <h2>2. Information we collect</h2>
+
+    <h3>2.1 Data stored locally on your device</h3>
+    <p>By design, the following user data is stored locally on your device (SQLite / AsyncStorage):</p>
+    <ul>
+      <li>Game saves and progress (character stats, inventory, quests, timestamps).</li>
+      <li>In-game journals and player-entered notes.</li>
+      <li>Local preferences and UI settings (volume mode, theme, last location).</li>
+    </ul>
+
+    <h3>2.2 Information used for subscription management</h3>
+    <p>Dunge uses RevenueCat to manage subscriptions and entitlements. RevenueCat will store and process purchase receipts and entitlement state. We do not store payment card details — Apple and Google handle payment processing.</p>
+
+    <h3>2.3 Technical & diagnostic information</h3>
+    <ul>
+      <li>Device model, OS version, app version, and crash logs (used to improve reliability).</li>
+      <li>Aggregate, non-identifying usage metrics and feature diagnostics (only if you opt into diagnostics within the app).</li>
+    </ul>
+
+    <h2>3. How we use data</h2>
+    <p>Dunge is a fully LLM-driven narrative RPG. This means <strong>every in-game action—whether you type freely or tap a preset choice—results in a request sent to a cloud-based Large Language Model (LLM)</strong> such as Google Gemini. We only send the minimal information required for the model to generate your next scene.</p>
+
+    <ul>
+      <li><strong>To generate narrative responses:</strong> The app sends a short, text-only summary of your character state, recent story context (last several turns), and the action you selected or typed. The LLM uses this to produce the next scene, choices, and events.</li>
+
+      <li><strong>To synthesize high-quality TTS:</strong> If you enable HD TTS, a short text segment is sent to the LLM provider's TTS service to produce audio. If you use normal mode, native/local TTS is used instead.</li>
+
+      <li><strong>To manage subscriptions:</strong> RevenueCat processes purchase receipts and entitlements. No payment card data is collected by us.</li>
+
+      <li><strong>To improve app reliability:</strong> If diagnostics are enabled, anonymized crash logs and basic stability metrics may be collected.</li>
+    </ul>
+
+    <h2>4. Third-party services we use</h2>
+
+    <h3>4.1 RevenueCat</h3>
+    <p>Used for subscription management and entitlement checks. Data shared includes purchase receipts and subscription status. Learn more at <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">revenuecat.com/privacy</a>.</p>
+
+    <h3>4.2 LLM Provider (e.g., Google Gemini)</h3>
+    <p><strong>Purpose:</strong> Generate narrative scenes, choices, events, and optional HD TTS audio.</p>
+    <p><strong>What we send:</strong></p>
+    <ul>
+      <li>A compact summary of your in-game character state (e.g., health, stamina, skills)</li>
+      <li>Your most recent action (typed or selected)</li>
+      <li>A short window of previous story context (last several turns)</li>
+      <li>System-level instructions needed to maintain game structure</li>
+    </ul>
+    <p><strong>What we do NOT send:</strong> your payment data, device identifiers beyond what the provider receives automatically (e.g., IP address), personal identity details, or your Apple/Google account information.</p>
+    <p>The LLM provider processes this data solely to generate narrative responses and does not use it for advertising or behavioral profiling.</p>
+
+    <h3>4.3 Platform services</h3>
+    <p>Apple and Google handle in-app billing and manage payment details. Their respective terms apply to these transactions.</p>
+
+    <h2>5. Where your data is stored</h2>. Third-party services we use</h2>
+    <h3>4.1 RevenueCat</h3>
+    <p>Purpose: subscription management and entitlements. Data shared: purchase receipts and entitlement state. Learn more at <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">revenuecat.com/privacy</a>.</p>
+
+    <h3>4.2 Gemini / Cloud LLM</h3>
+    <p>Purpose: generate narrative text and optional high-quality TTS audio. The exact fields sent depend on app configuration and privacy toggles. The LLM provider's privacy policy applies to data processed by the model provider.</p>
+
+    <h3>4.3 Platform services</h3>
+    <p>We rely on Apple / Google platform services for in-app billing, and the platform provider's terms apply to payment processing and receipts.</p>
+
+    <h2>5. Where your data is stored</h2>
+    <ul>
+      <li><strong>Local on your device:</strong> Game saves, journals, and preferences.</li>
+      <li><strong>Third party:</strong> Subscription receipts & entitlement state (RevenueCat). Minimal context required to generate a narrative may be sent to the LLM provider. We do not run a first-party backend that stores your full chat or save data.</li>
+    </ul>
+
+    <h2>6. How long we keep your data</h2>
+    <p>Local game data remains on your device until you uninstall the app or explicitly delete saves from within the app. Subscription records are retained by RevenueCat/Apple per their policies.</p>
+
+    <h2>7. Your choices</h2>
+    <ul>
+      <li><strong>Delete local data:</strong> Uninstalling the app removes local game data. You can also delete individual saves or reset progress in-app if provided.</li>
+      <li><strong>Manage subscription:</strong> Cancel, manage, or restore purchases via your Apple ID / RevenueCat restore flow in the app.</li>
+    </ul>
+
+    <h2>8. Children</h2>
+    <p>Dunge is suitable for general audiences but may include fantasy themes. We do not knowingly collect personal information from children under 13 without parental consent. If you believe we have collected such information, please contact us immediately.</p>
+
+    <h2>9. Security</h2>
+    <p>We use reasonable administrative, technical, and physical measures to protect data stored in the app and data transmitted to third parties (e.g., TLS for network requests). However, no method of transmission over the internet or method of electronic storage is 100% secure.</p>
+
+    <h2>10. International transfers</h2>
+    <p>Because the app may call cloud services located in different jurisdictions (LLM provider, RevenueCat), data transmitted to those services may be processed outside your country. By using the app you acknowledge these transfers for the limited purpose of generating narratives and managing subscriptions.</p>
+
+    <h2>11. Policy updates</h2>
+    <p>We may change this Privacy Policy from time to time. When we do, we will update the "Last updated" date shown at the top of this page. Continued use of the app after changes indicates acceptance of the updated policy.</p>
+
+    <h2>12. Contact us</h2>
+    <div class="contact">
+      <p>If you have questions about this privacy policy or wish to exercise your rights, contact us at:</p>
+      <p><a href="mailto:sleekenddesigns@gmail.com">sleekenddesigns@gmail.com</a></p>
+    </div>
+
+    <footer>
+      <p class="muted">&copy; 2025 Simplivio. All rights reserved.</p>
+    </footer>
+  </main>
+</body>
+</html>
