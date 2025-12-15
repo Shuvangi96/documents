@@ -1,0 +1,26 @@
+{
+  "manifestVersion": 1,
+  "generatedAt": "2025-12-15T00:00:00.000Z",
+  "skins": [
+    {
+      "id": "retro2",
+      "name": "Retro Calculator (Wood)",
+      "isDefault": true,
+      "baseImageUrl": "https://shuvangi96.github.io/documents/retro3dcalculator/calculator_skin_2/calculator_skin_2.jpg",
+      "calibrationUrl": "https://shuvangi96.github.io/documents/retro3dcalculator/calculator_skin_2/calculator_calibration_2.json",
+      "imageWidth": 2201,
+      "imageHeight": 1000
+    },
+    {
+      "id": "retro3",
+      "name": "Retro Calculator (Stone)",
+      "isDefault": false,
+      "baseImageUrl": "https://shuvangi96.github.io/documents/retro3dcalculator/calculator_skin_3/calculator_skin_3.jpg",
+      "calibrationUrl": "https://shuvangi96.github.io/documents/retro3dcalculator/calculator_skin_3/calculator_calibration_3.json",
+      "imageWidth": 2201,
+      "imageHeight": 1000
+    }
+  ]
+}
+
+
