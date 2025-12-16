@@ -21,8 +21,8 @@
       "supportedOrientations": "portrait",
       "baseImageUrl": "https://shuvangi96.github.io/documents/retro3dcalculator/calculator_skin_3/calculator_skin_3.jpg",
       "calibrationUrl": "https://shuvangi96.github.io/documents/retro3dcalculator/calculator_skin_3/calculator_calibration_3.json",
-      "imageWidth": 2201,
-      "imageHeight": 1000
+      "imageWidth": 2835,
+      "imageHeight": 1903
     },
     {
       "id": "retro4",
@@ -32,8 +32,8 @@
       "supportedOrientations": "both",
       "baseImageUrl": "https://shuvangi96.github.io/documents/retro3dcalculator/calculator_skin_3/calculator_skin_3.jpg",
       "calibrationUrl": "https://shuvangi96.github.io/documents/retro3dcalculator/calculator_skin_3/calculator_calibration_3.json",
-      "imageWidth": 2201,
-      "imageHeight": 1000
+      "imageWidth": 2835,
+      "imageHeight": 1903
     },
     {
       "id": "retro5",
@@ -44,8 +44,8 @@
       "supportedOrientations": "landscape",
       "baseImageUrl": "https://shuvangi96.github.io/documents/retro3dcalculator/calculator_skin_3/calculator_skin_3.jpg",
       "calibrationUrl": "https://shuvangi96.github.io/documents/retro3dcalculator/calculator_skin_3/calculator_calibration_3.json",
-      "imageWidth": 2201,
-      "imageHeight": 1000
+      "imageWidth": 2835,
+      "imageHeight": 1903
     }
   ]
 }
