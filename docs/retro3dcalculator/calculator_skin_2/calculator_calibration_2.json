@@ -27,6 +27,15 @@
     }
   },
   {
+    "label": "Correct",
+    "style": {
+        "xMin": "776",
+        "yMin": "775",
+        "xMax": "932",
+        "yMax": "845"
+    }
+  },
+  {
     "label": "GT",
     "style": {
       "xMin": "978",
@@ -45,12 +54,237 @@
     }
   },
   {
+    "label": "8",
+    "style": {
+        "xMin": "776",
+        "yMin": "775",
+        "xMax": "932",
+        "yMax": "845"
+    }
+  },
+  {
+    "label": "9",
+    "style": {
+        "xMin": "776",
+        "yMin": "775",
+        "xMax": "932",
+        "yMax": "845"
+    }
+  },
+  {
+    "label": "÷",
+    "style": {
+        "xMin": "776",
+        "yMin": "775",
+        "xMax": "932",
+        "yMax": "845"
+    }
+  },
+  {
+    "label": "Auto-Replay",
+    "style": {
+        "xMin": "776",
+        "yMin": "775",
+        "xMax": "932",
+        "yMax": "845"
+    }
+  },
+  {
     "label": "ON/AC",
     "style": {
       "xMin": "1737",
       "yMin": "910",
       "xMax": "1835",
       "yMax": "1010"
+    }
+  },
+  {
+    "label": "MU",
+    "style": {
+        "xMin": "776",
+        "yMin": "775",
+        "xMax": "932",
+        "yMax": "845"
+    }
+  },
+  {
+    "label": "4",
+    "style": {
+        "xMin": "776",
+        "yMin": "775",
+        "xMax": "932",
+        "yMax": "845"
+    }
+  },
+  {
+    "label": "5",
+    "style": {
+        "xMin": "776",
+        "yMin": "775",
+        "xMax": "932",
+        "yMax": "845"
+    }
+  },
+  {
+    "label": "6",
+    "style": {
+        "xMin": "776",
+        "yMin": "775",
+        "xMax": "932",
+        "yMax": "845"
+    }
+  },
+  {
+    "label": "×",
+    "style": {
+        "xMin": "776",
+        "yMin": "775",
+        "xMax": "932",
+        "yMax": "845"
+    }
+  },
+  {
+    "label": "%",
+    "style": {
+        "xMin": "776",
+        "yMin": "775",
+        "xMax": "932",
+        "yMax": "845"
+    }
+  },
+  {
+    "label": "M-",
+    "style": {
+        "xMin": "776",
+        "yMin": "775",
+        "xMax": "932",
+        "yMax": "845"
+    }
+  },
+  {
+    "label": "√",
+    "style": {
+        "xMin": "776",
+        "yMin": "775",
+        "xMax": "932",
+        "yMax": "845"
+    }
+  },
+  {
+    "label": "1",
+    "style": {
+        "xMin": "776",
+        "yMin": "775",
+        "xMax": "932",
+        "yMax": "845"
+    }
+  },
+  {
+    "label": "2",
+    "style": {
+        "xMin": "776",
+        "yMin": "775",
+        "xMax": "932",
+        "yMax": "845"
+    }
+  },
+  {
+    "label": "3",
+    "style": {
+        "xMin": "776",
+        "yMin": "775",
+        "xMax": "932",
+        "yMax": "845"
+    }
+  },
+  {
+    "label": "+",
+    "style": {
+        "xMin": "776",
+        "yMin": "775",
+        "xMax": "932",
+        "yMax": "845"
+    }
+  },
+  {
+    "label": "-",
+    "style": {
+        "xMin": "776",
+        "yMin": "775",
+        "xMax": "932",
+        "yMax": "845"
+    }
+  },
+  {
+    "label": "M+",
+    "style": {
+        "xMin": "776",
+        "yMin": "775",
+        "xMax": "932",
+        "yMax": "845"
+    }
+  },
+  {
+    "label": "CE",
+    "style": {
+        "xMin": "776",
+        "yMin": "775",
+        "xMax": "932",
+        "yMax": "845"
+    }
+  },
+  {
+    "label": "0",
+    "style": {
+        "xMin": "776",
+        "yMin": "775",
+        "xMax": "932",
+        "yMax": "845"
+    }
+  },
+  {
+    "label": "00",
+    "style": {
+        "xMin": "776",
+        "yMin": "775",
+        "xMax": "932",
+        "yMax": "845"
+    }
+  },
+  {
+    "label": ".",
+    "style": {
+        "xMin": "776",
+        "yMin": "775",
+        "xMax": "932",
+        "yMax": "845"
+    }
+  },
+  {
+    "label": "=",
+    "style": {
+        "xMin": "776",
+        "yMin": "775",
+        "xMax": "932",
+        "yMax": "845"
+    }
+  },
+  {
+    "label": "+/-",
+    "style": {
+        "xMin": "776",
+        "yMin": "775",
+        "xMax": "932",
+        "yMax": "845"
+    }
+  },
+  {
+    "label": "MRC",
+    "style": {
+        "xMin": "776",
+        "yMin": "775",
+        "xMax": "932",
+        "yMax": "845"
     }
   }
 ]
