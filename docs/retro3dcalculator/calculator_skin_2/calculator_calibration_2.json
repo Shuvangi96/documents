@@ -1,92 +1,56 @@
 [
   {
-    "label": "CHECK",
+    "label": "CALCULATOR",
     "style": {
-      "xMin": "646",
-      "yMin": "332",
-      "xMax": "799",
-      "yMax": "394"
-    }
-  },
-  {
-    "label": "Correct",
-    "style": {
-      "xMin": "847",
-      "yMin": "331",
-      "xMax": "999",
-      "yMax": "396"
-    }
-  },
-  {
-    "label": "GT",
-    "style": {
-      "xMin": "650",
-      "yMin": "470",
-      "xMax": "743",
-      "yMax": "517"
-    }
-  },
-  {
-    "label": "7",
-    "style": {
-      "xMin": "784",
-      "yMin": "467",
-      "xMax": "880",
-      "yMax": "565"
-    }
-  },
-  {
-    "label": "8",
-    "style": {
-      "xMin": "906",
-      "yMin": "466",
-      "xMax": "1002",
-      "yMax": "564"
-    }
-  },
-  {
-    "label": "9",
-    "style": {
-      "xMin": "1027",
-      "yMin": "465",
-      "xMax": "1123",
-      "yMax": "562"
-    }
-  },
-  {
-    "label": "÷",
-    "style": {
-      "xMin": "1164",
-      "yMin": "464",
-      "xMax": "1261",
-      "yMax": "562"
-    }
-  },
-  {
-    "label": "Auto-Replay",
-    "style": {
-      "xMin": "1285",
-      "yMin": "464",
-      "xMax": "1381",
-      "yMax": "562"
-    }
-  },
-  {
-    "label": "ON/AC",
-    "style": {
-      "xMin": "1407",
-      "yMin": "463",
-      "xMax": "1503",
-      "yMax": "561"
+      "xMin": "891",
+      "yMin": "457",
+      "xMax": "1915",
+      "yMax": "1459"
     }
   },
   {
     "label": "DISPLAY",
     "style": {
-      "xMin": "657",
-      "yMin": "95",
-      "xMax": "1496",
-      "yMax": "229"
+      "xMin": "988",
+      "yMin": "542",
+      "xMax": "1828",
+      "yMax": "680"
+    }
+  },
+  {
+    "label": "CHECK",
+    "style": {
+      "xMin": "976",
+      "yMin": "775",
+      "xMax": "1132",
+      "yMax": "845"
+    }
+  },
+  {
+    "label": "GT",
+    "style": {
+      "xMin": "978",
+      "yMin": "914",
+      "xMax": "1076",
+      "yMax": "967"
+    }
+  },
+  {
+    "label": "7",
+    "style": {
+      "xMin": "1115",
+      "yMin": "913",
+      "xMax": "1212",
+      "yMax": "1014"
+    }
+  },
+  {
+    "label": "ON/AC",
+    "style": {
+      "xMin": "1737",
+      "yMin": "910",
+      "xMax": "1835",
+      "yMax": "1010"
     }
   }
 ]
