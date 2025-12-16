@@ -15,7 +15,29 @@
     },
     {
       "id": "retro3",
-      "name": "Retro Calculator (Stone)",
+      "name": "Retro Calculator (Stone portrait)",
+      "isDefault": false,
+      "pricing": "free",
+      "supportedOrientations": "portrait",
+      "baseImageUrl": "https://shuvangi96.github.io/documents/retro3dcalculator/calculator_skin_3/calculator_skin_3.jpg",
+      "calibrationUrl": "https://shuvangi96.github.io/documents/retro3dcalculator/calculator_skin_3/calculator_calibration_3.json",
+      "imageWidth": 2201,
+      "imageHeight": 1000
+    },
+    {
+      "id": "retro3",
+      "name": "Retro Calculator (Stone both)",
+      "isDefault": false,
+      "pricing": "free",
+      "supportedOrientations": "both",
+      "baseImageUrl": "https://shuvangi96.github.io/documents/retro3dcalculator/calculator_skin_3/calculator_skin_3.jpg",
+      "calibrationUrl": "https://shuvangi96.github.io/documents/retro3dcalculator/calculator_skin_3/calculator_calibration_3.json",
+      "imageWidth": 2201,
+      "imageHeight": 1000
+    },
+    {
+      "id": "retro3",
+      "name": "Retro Calculator (Stone paid)",
       "isDefault": false,
       "pricing": "premium",
       "price": 0.99,
