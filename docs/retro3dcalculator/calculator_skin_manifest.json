@@ -30,8 +30,8 @@
       "isDefault": false,
       "pricing": "free",
       "supportedOrientations": "both",
-      "baseImageUrl": "https://shuvangi96.github.io/documents/retro3dcalculator/calculator_skin_3/calculator_skin_3.jpg",
-      "calibrationUrl": "https://shuvangi96.github.io/documents/retro3dcalculator/calculator_skin_3/calculator_calibration_3.json",
+      "baseImageUrl": "https://shuvangi96.github.io/documents/retro3dcalculator/calculator_skin_3/calculator_skin_4.jpg",
+      "calibrationUrl": "https://shuvangi96.github.io/documents/retro3dcalculator/calculator_skin_3/calculator_calibration_4.json",
       "imageWidth": 2835,
       "imageHeight": 1903
     },
@@ -42,8 +42,8 @@
       "pricing": "premium",
       "price": 0.99,
       "supportedOrientations": "landscape",
-      "baseImageUrl": "https://shuvangi96.github.io/documents/retro3dcalculator/calculator_skin_3/calculator_skin_3.jpg",
-      "calibrationUrl": "https://shuvangi96.github.io/documents/retro3dcalculator/calculator_skin_3/calculator_calibration_3.json",
+      "baseImageUrl": "https://shuvangi96.github.io/documents/retro3dcalculator/calculator_skin_3/calculator_skin_5.jpg",
+      "calibrationUrl": "https://shuvangi96.github.io/documents/retro3dcalculator/calculator_skin_3/calculator_calibration_5.json",
       "imageWidth": 2835,
       "imageHeight": 1903
     }
