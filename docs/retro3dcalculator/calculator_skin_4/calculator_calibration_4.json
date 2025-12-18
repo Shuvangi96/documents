@@ -38,46 +38,46 @@
   {
     "label": "GT",
     "style": {
-      "xMin": 1115,
-      "yMin": 686,
-      "xMax": 1195,
-      "yMax": 748
+      "xMin": 1111,
+      "yMin": 680,
+      "xMax": 1199,
+      "yMax": 755
     }
   },
   {
     "label": "7",
     "style": {
-      "xMin": 692,
-      "yMin": 596,
-      "xMax": 772,
-      "yMax": 661
+      "xMin": 686,
+      "yMin": 592,
+      "xMax": 774,
+      "yMax": 664
     }
   },
   {
     "label": "8",
     "style": {
-      "xMin": 799,
-      "yMin": 596,
-      "xMax": 877,
-      "yMax": 661
+      "xMin": 793,
+      "yMin": 592,
+      "xMax": 881,
+      "yMax": 664
     }
   },
   {
     "label": "9",
     "style": {
-      "xMin": 903,
-      "yMin": 595,
-      "xMax": 982,
-      "yMax": 661
+      "xMin": 898,
+      "yMin": 592,
+      "xMax": 987,
+      "yMax": 664
     }
   },
   {
     "label": "÷",
     "style": {
-      "xMin": 1012,
-      "yMin": 684,
-      "xMax": 1090,
-      "yMax": 749
+      "xMin": 1003,
+      "yMin": 682,
+      "xMax": 1092,
+      "yMax": 752
     }
   },
   {
@@ -92,8 +92,8 @@
   {
     "label": "ON/AC",
     "style": {
-      "xMin": 583,
-      "yMin": 865,
+      "xMin": 578,
+      "yMin": 862,
       "xMax": 669,
       "yMax": 935
     }
@@ -101,19 +101,19 @@
   {
     "label": "MU",
     "style": {
-      "xMin": 1226,
-      "yMin": 684,
-      "xMax": 1304,
-      "yMax": 748
+      "xMin": 1218,
+      "yMin": 680,
+      "xMax": 1308,
+      "yMax": 753
     }
   },
   {
     "label": "4",
     "style": {
-      "xMin": 692,
-      "yMin": 686,
+      "xMin": 684,
+      "yMin": 682,
       "xMax": 774,
-      "yMax": 753
+      "yMax": 755
     }
   },
   {
@@ -128,99 +128,99 @@
   {
     "label": "6",
     "style": {
-      "xMin": 903,
-      "yMin": 684,
-      "xMax": 982,
+      "xMin": 898,
+      "yMin": 680,
+      "xMax": 987,
       "yMax": 753
     }
   },
   {
     "label": "×",
     "style": {
-      "xMin": 1012,
-      "yMin": 775,
-      "xMax": 1090,
-      "yMax": 840
+      "xMin": 1004,
+      "yMin": 771,
+      "xMax": 1092,
+      "yMax": 843
     }
   },
   {
     "label": "%",
     "style": {
-      "xMin": 587,
-      "yMin": 687,
-      "xMax": 665,
-      "yMax": 749
+      "xMin": 579,
+      "yMin": 683,
+      "xMax": 669,
+      "yMax": 757
     }
   },
   {
     "label": "M-",
     "style": {
-      "xMin": 1115,
-      "yMin": 592,
-      "xMax": 1193,
-      "yMax": 658
+      "xMin": 1111,
+      "yMin": 591,
+      "xMax": 1199,
+      "yMax": 661
     }
   },
   {
     "label": "√",
     "style": {
-      "xMin": 585,
-      "yMin": 777,
-      "xMax": 667,
-      "yMax": 841
+      "xMin": 578,
+      "yMin": 772,
+      "xMax": 669,
+      "yMax": 850
     }
   },
   {
     "label": "1",
     "style": {
-      "xMin": 692,
-      "yMin": 775,
-      "xMax": 770,
-      "yMax": 841
+      "xMin": 684,
+      "yMin": 772,
+      "xMax": 774,
+      "yMax": 845
     }
   },
   {
     "label": "2",
     "style": {
-      "xMin": 799,
-      "yMin": 775,
-      "xMax": 877,
+      "xMin": 793,
+      "yMin": 771,
+      "xMax": 882,
       "yMax": 843
     }
   },
   {
     "label": "3",
     "style": {
-      "xMin": 903,
-      "yMin": 775,
-      "xMax": 982,
-      "yMax": 840
+      "xMin": 898,
+      "yMin": 771,
+      "xMax": 987,
+      "yMax": 844
     }
   },
   {
     "label": "+",
     "style": {
-      "xMin": 1117,
-      "yMin": 777,
-      "xMax": 1197,
-      "yMax": 928
+      "xMin": 1111,
+      "yMin": 770,
+      "xMax": 1201,
+      "yMax": 932
     }
   },
   {
     "label": "-",
     "style": {
-      "xMin": 1014,
-      "yMin": 865,
-      "xMax": 1090,
-      "yMax": 931
+      "xMin": 1006,
+      "yMin": 861,
+      "xMax": 1096,
+      "yMax": 934
     }
   },
   {
     "label": "M+",
     "style": {
-      "xMin": 1010,
-      "yMin": 593,
-      "xMax": 1090,
+      "xMin": 1004,
+      "yMin": 591,
+      "xMax": 1092,
       "yMax": 661
     }
   },
@@ -236,55 +236,55 @@
   {
     "label": "0",
     "style": {
-      "xMin": 690,
-      "yMin": 866,
-      "xMax": 770,
-      "yMax": 931
+      "xMin": 684,
+      "yMin": 862,
+      "xMax": 774,
+      "yMax": 935
     }
   },
   {
     "label": "00",
     "style": {
-      "xMin": 797,
-      "yMin": 863,
-      "xMax": 877,
-      "yMax": 928
+      "xMin": 791,
+      "yMin": 862,
+      "xMax": 881,
+      "yMax": 935
     }
   },
   {
     "label": ".",
     "style": {
-      "xMin": 903,
-      "yMin": 866,
-      "xMax": 983,
-      "yMax": 925
+      "xMin": 898,
+      "yMin": 862,
+      "xMax": 987,
+      "yMax": 934
     }
   },
   {
     "label": "=",
     "style": {
-      "xMin": 1222,
-      "yMin": 775,
-      "xMax": 1304,
-      "yMax": 929
+      "xMin": 1218,
+      "yMin": 770,
+      "xMax": 1308,
+      "yMax": 932
     }
   },
   {
     "label": "+/-",
     "style": {
-      "xMin": 585,
-      "yMin": 596,
-      "xMax": 663,
-      "yMax": 662
+      "xMin": 579,
+      "yMin": 593,
+      "xMax": 669,
+      "yMax": 664
     }
   },
   {
     "label": "MRC",
     "style": {
-      "xMin": 1222,
-      "yMin": 593,
-      "xMax": 1302,
-      "yMax": 660
+      "xMin": 1218,
+      "yMin": 591,
+      "xMax": 1306,
+      "yMax": 662
     }
   }
 ]

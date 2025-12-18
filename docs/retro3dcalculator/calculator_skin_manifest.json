@@ -37,7 +37,7 @@
       "price": 0.99,
       "iapProductId": "com.simplivio.retro3dcalculator.skin.retro4",
       "revenueCatEntitlementId": "skin_retro4",
-      "pressEffectRadius": 0.2,
+      "pressEffectRadius": 0.6,
       "supportedOrientations": "both",
       "baseImageUrl": "https://shuvangi96.github.io/documents/retro3dcalculator/calculator_skin_4/calculator_skin_4.jpg",
       "calibrationUrl": "https://shuvangi96.github.io/documents/retro3dcalculator/calculator_skin_4/calculator_calibration_4.json",
