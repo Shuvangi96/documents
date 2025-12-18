@@ -119,10 +119,10 @@
   {
     "label": "5",
     "style": {
-      "xMin": 799,
-      "yMin": 684,
-      "xMax": 877,
-      "yMax": 750
+      "xMin": 791,
+      "yMin": 682,
+      "xMax": 881,
+      "yMax": 755
     }
   },
   {
@@ -263,7 +263,7 @@
   {
     "label": "=",
     "style": {
-      "xMin": 1218,
+      "xMin": 1216,
       "yMin": 770,
       "xMax": 1308,
       "yMax": 932
