@@ -1,0 +1,143 @@
+{
+  "id": "italian.fettuccine_alfredo.v1",
+  "primaryCuisine": "Italian",
+  "categories": ["Main Course"],
+  "source": "server",
+  "version": 1,
+  "recipe_name": "Fettuccine Alfredo",
+  "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400&h=300&fit=crop",
+  "description": "A rich and comforting Italian pasta dish featuring silky noodles tossed in a creamy butter and cheese sauce, finished with black pepper.",
+  "calories_per_serving": 620,
+  "servings_variable": "n",
+  "ingredients": [
+    {
+      "ingredient_description": "Fettuccine pasta",
+      "quantity_per_serving": 100,
+      "unit": "grams",
+      "allergen": "Gluten"
+    },
+    {
+      "ingredient_description": "Butter",
+      "quantity_per_serving": 25,
+      "unit": "grams",
+      "allergen": "Dairy"
+    },
+    {
+      "ingredient_description": "Cream",
+      "quantity_per_serving": 80,
+      "unit": "ml",
+      "allergen": "Dairy"
+    },
+    {
+      "ingredient_description": "Grated hard cheese (Parmesan-style)",
+      "quantity_per_serving": 30,
+      "unit": "grams",
+      "allergen": "Dairy"
+    },
+    {
+      "ingredient_description": "Garlic, minced",
+      "quantity_per_serving": 4,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Black pepper, freshly ground",
+      "quantity_per_serving": 1,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Salt",
+      "quantity_per_serving": 2,
+      "unit": "grams"
+    }
+  ],
+  "preparation": {
+    "prep_time_minutes": 10,
+    "steps": [
+      {
+        "step": "Finely mince the garlic and grate the cheese. Bring a pot of salted water to a boil."
+      }
+    ]
+  },
+  "cooking": {
+    "cook_time_minutes": 15,
+    "steps": [
+      {
+        "step": "Cook the pasta in boiling salted water until al dente. Reserve {{pasta_water}} of pasta cooking water before draining.",
+        "variables": {
+          "pasta_water": {
+            "quantity_per_serving": 60,
+            "unit": "ml"
+          }
+        }
+      },
+      {
+        "step": "Melt {{butter}} of butter in a pan over medium heat and gently sauté the garlic for 30–40 seconds until fragrant.",
+        "variables": {
+          "butter": {
+            "quantity_per_serving": 25,
+            "unit": "grams"
+          }
+        }
+      },
+      {
+        "step": "Add {{cream}} of cream and simmer gently for 2–3 minutes.",
+        "variables": {
+          "cream": {
+            "quantity_per_serving": 80,
+            "unit": "ml"
+          }
+        }
+      },
+      {
+        "step": "Toss in the cooked pasta and add the grated cheese, stirring continuously to form a smooth sauce. Loosen with reserved pasta water if needed."
+      },
+      {
+        "step": "Season with salt and black pepper. Serve immediately."
+      }
+    ]
+  },
+  "nutrition": {
+    "macronutrients_per_serving": {
+      "carbohydrates": { "amount": 62, "unit": "g", "percent": 40 },
+      "protein": { "amount": 18, "unit": "g", "percent": 12 },
+      "fat": { "amount": 36, "unit": "g", "percent": 48 }
+    },
+    "caloric_sources_per_serving": {
+      "carbs_kcal": 248,
+      "protein_kcal": 72,
+      "fat_kcal": 324,
+      "total_kcal": 644
+    },
+    "micronutrients_per_serving": {
+      "sodium": { "amount": 520, "unit": "mg", "percent_dv": 23 },
+      "fiber": { "amount": 3, "unit": "g", "percent_dv": 11 },
+      "calcium": { "amount": 280, "unit": "mg", "percent_dv": 22 },
+      "iron": { "amount": 2, "unit": "mg", "percent_dv": 11 },
+      "vitamin_a": { "amount": 320, "unit": "mcg", "percent_dv": 36 },
+      "vitamin_c": { "amount": 2, "unit": "mg", "percent_dv": 2 }
+    },
+    "quick_stats_per_serving": {
+      "calories": 620,
+      "sugar": { "amount": 3, "unit": "g" },
+      "saturated_fat": { "amount": 21, "unit": "g" },
+      "cholesterol": { "amount": 95, "unit": "mg" },
+      "serving_size": "1 plate"
+    }
+  },
+  "filters": {
+    "ingredient names": [
+      "Noodles",
+      "Butter",
+      "Cream",
+      "Cheese",
+      "Garlic",
+      "Black Pepper",
+      "Salt"
+    ],
+    "Meal Type": ["Dinner"],
+    "Avoid Allergens": ["Gluten", "Dairy"],
+    "Diet": ["Vegetarian"],
+    "Duration": ["15-30 min"],
+    "Nutrition": ["High Calcium"]
+  }
+}

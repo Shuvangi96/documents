@@ -37,6 +37,11 @@
       "id": "korean.tteokbokki.v1",
       "path": "recipes/korean.tteokbokki.v1.json",
       "image": "recipes/korean.tteokbokki.jpg"
+    },
+    {
+      "id": "italian.fettuccine_alfredo.v1",
+      "path": "recipes/italian.fettuccine_alfredo.v1.json",
+      "image": "recipes/italian.fettuccine_alfredo.jpg"
     }
   ],
 
