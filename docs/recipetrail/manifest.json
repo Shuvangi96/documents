@@ -5,31 +5,38 @@
   "recipes": [
     {
       "id": "italian.cacio_e_pepe.v1",
-      "path": "recipes/italian.cacio_e_pepe.v1.json"
+      "path": "recipes/italian.cacio_e_pepe.v1.json",
+      "image": "recipes/italian.cacio_e_pepe.jpg"
     },
     {
       "id": "chinese.dan_dan_noodles.v1",
-      "path": "recipes/chinese.dan_dan_noodles.v1.json"
+      "path": "recipes/chinese.dan_dan_noodles.v1.json",
+      "image": "recipes/chinese.dan_dan_noodles.jpg"
     },
     {
       "id": "indian.gulab_jamun.v1",
-      "path": "recipes/indian.gulab_jamun.v1.json"
+      "path": "recipes/indian.gulab_jamun.v1.json",
+      "image": "recipes/indian.gulab_jamun.jpg"
     },
     {
       "id": "italian.panna_cotta.v1",
-      "path": "recipes/italian.panna_cotta.v1.json"
+      "path": "recipes/italian.panna_cotta.v1.json",
+      "image": "recipes/italian.panna_cotta.jpg"
     },
     {
       "id": "chinese.honey_chilli_chicken.v1",
-      "path": "recipes/chinese.honey_chilli_chicken.v1.json"
+      "path": "recipes/chinese.honey_chilli_chicken.v1.json",
+      "image": "recipes/chinese.honey_chilli_chicken.jpg"
     },
     {
       "id": "indian.paneer_butter_masala.v1",
-      "path": "recipes/indian.paneer_butter_masala.v1.json"
+      "path": "recipes/indian.paneer_butter_masala.v1.json",
+      "image": "recipes/indian.paneer_butter_masala.jpg"
     },
     {
       "id": "korean.tteokbokki.v1",
-      "path": "recipes/korean.tteokbokki.v1.json"
+      "path": "recipes/korean.tteokbokki.v1.json",
+      "image": "recipes/korean.tteokbokki.jpg"
     }
   ],
 
