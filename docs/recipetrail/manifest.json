@@ -1,0 +1,46 @@
+{
+  "manifest_version": 1,
+  "generated_at": "2025-03-01",
+
+  "recipes": [
+    {
+      "id": "italian.cacio_e_pepe.v1",
+      "path": "recipes/italian.cacio_e_pepe.v1.json"
+    },
+    {
+      "id": "chinese.dan_dan_noodles.v1",
+      "path": "recipes/chinese.dan_dan_noodles.v1.json"
+    },
+    {
+      "id": "indian.gulab_jamun.v1",
+      "path": "recipes/indian.gulab_jamun.v1.json"
+    },
+    {
+      "id": "italian.panna_cotta.v1",
+      "path": "recipes/italian.panna_cotta.v1.json"
+    },
+    {
+      "id": "chinese.honey_chilli_chicken.v1",
+      "path": "recipes/chinese.honey_chilli_chicken.v1.json"
+    },
+    {
+      "id": "indian.paneer_butter_masala.v1",
+      "path": "recipes/indian.paneer_butter_masala.v1.json"
+    },
+    {
+      "id": "korean.tteokbokki.v1",
+      "path": "recipes/korean.tteokbokki.v1.json"
+    }
+  ],
+
+  "collections": {
+    "recipes_of_the_month": {
+      "month": "2025-03",
+      "recipe_ids": [
+        "italian.cacio_e_pepe.v1",
+        "chinese.dan_dan_noodles.v1",
+        "indian.gulab_jamun.v1"
+      ]
+    }
+  }
+}

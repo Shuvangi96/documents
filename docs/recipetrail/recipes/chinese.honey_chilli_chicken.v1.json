@@ -1,0 +1,75 @@
+{
+  "id": "chinese.honey_chilli_chicken.v1",
+  "primaryCuisine": "Chinese",
+  "categories": ["Main Course"],
+  "source": "server",
+  "version": 1,
+
+  "recipe_name": "Honey Chilli Chicken",
+  "image": "https://images.unsplash.com/photo-1604908177522-402c1f7a44cc?w=400&h=300&fit=crop",
+  "description": "Crispy fried chicken tossed in a sticky honey-chilli glaze with garlic and soy sauce.",
+  "calories_per_serving": 420,
+  "servings_variable": "n",
+
+  "ingredients": [
+    { "ingredient_description": "Chicken breast", "quantity_per_serving": 150, "unit": "grams" },
+    { "ingredient_description": "Honey", "quantity_per_serving": 20, "unit": "grams" },
+    { "ingredient_description": "Soy sauce", "quantity_per_serving": 15, "unit": "ml", "allergen": "Soy" },
+    { "ingredient_description": "Chilli sauce", "quantity_per_serving": 10, "unit": "ml" },
+    { "ingredient_description": "Garlic", "quantity_per_serving": 5, "unit": "grams" }
+  ],
+
+  "preparation": {
+    "prep_time_minutes": 15,
+    "steps": [
+      { "step": "Cut chicken into bite-sized pieces and pat dry." }
+    ]
+  },
+
+  "cooking": {
+    "cook_time_minutes": 15,
+    "steps": [
+      {
+        "step": "Fry chicken until golden, then toss with {{honey}}, {{soy}}, and {{chilli}}.",
+        "variables": {
+          "honey": { "quantity_per_serving": 20, "unit": "grams" },
+          "soy": { "quantity_per_serving": 15, "unit": "ml" },
+          "chilli": { "quantity_per_serving": 10, "unit": "ml" }
+        }
+      }
+    ]
+  },
+
+  "nutrition": {
+    "macronutrients_per_serving": {
+      "carbohydrates": { "amount": 30, "unit": "g", "percent": 29 },
+      "protein": { "amount": 32, "unit": "g", "percent": 30 },
+      "fat": { "amount": 22, "unit": "g", "percent": 41 }
+    },
+    "caloric_sources_per_serving": {
+      "carbs_kcal": 120,
+      "protein_kcal": 128,
+      "fat_kcal": 198,
+      "total_kcal": 446
+    },
+    "micronutrients_per_serving": {
+      "iron": { "amount": 2.1, "unit": "mg", "percent_dv": 12 }
+    },
+    "quick_stats_per_serving": {
+      "calories": 420,
+      "sugar": { "amount": 18, "unit": "g" },
+      "saturated_fat": { "amount": 5, "unit": "g" },
+      "cholesterol": { "amount": 85, "unit": "mg" },
+      "serving_size": "1 serving"
+    }
+  },
+
+  "filters": {
+    "ingredient names": ["chicken", "honey", "soy sauce", "garlic"],
+    "Meal Type": ["Dinner"],
+    "Avoid Allergens": ["Soy"],
+    "Diet": [],
+    "Duration": ["15-30 min"],
+    "Nutrition": ["High Protein"]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "indian.paneer_butter_masala.v1",
+  "primaryCuisine": "Indian",
+  "categories": ["Main Course"],
+  "source": "server",
+  "version": 1,
+
+  "recipe_name": "Paneer Butter Masala",
+  "image": "https://images.unsplash.com/photo-1626074353765-517a681e40be?w=400&h=300&fit=crop",
+  "description": "Rich and creamy tomato-based curry with soft paneer cubes and aromatic spices.",
+  "calories_per_serving": 460,
+  "servings_variable": "n",
+
+  "ingredients": [
+    { "ingredient_description": "Paneer", "quantity_per_serving": 120, "unit": "grams", "allergen": "Dairy" },
+    { "ingredient_description": "Tomato puree", "quantity_per_serving": 150, "unit": "grams" },
+    { "ingredient_description": "Butter", "quantity_per_serving": 15, "unit": "grams", "allergen": "Dairy" },
+    { "ingredient_description": "Cream", "quantity_per_serving": 30, "unit": "ml", "allergen": "Dairy" }
+  ],
+
+  "preparation": {
+    "prep_time_minutes": 15,
+    "steps": [
+      { "step": "Cut paneer into cubes and prepare tomato puree." }
+    ]
+  },
+
+  "cooking": {
+    "cook_time_minutes": 20,
+    "steps": [
+      {
+        "step": "Simmer tomato puree with butter, add paneer and finish with {{cream}}.",
+        "variables": {
+          "cream": { "quantity_per_serving": 30, "unit": "ml" }
+        }
+      }
+    ]
+  },
+
+  "nutrition": {
+    "macronutrients_per_serving": {
+      "carbohydrates": { "amount": 18, "unit": "g", "percent": 16 },
+      "protein": { "amount": 20, "unit": "g", "percent": 18 },
+      "fat": { "amount": 34, "unit": "g", "percent": 66 }
+    },
+    "caloric_sources_per_serving": {
+      "carbs_kcal": 72,
+      "protein_kcal": 80,
+      "fat_kcal": 306,
+      "total_kcal": 458
+    },
+    "micronutrients_per_serving": {
+      "calcium": { "amount": 220, "unit": "mg", "percent_dv": 17 }
+    },
+    "quick_stats_per_serving": {
+      "calories": 460,
+      "sugar": { "amount": 8, "unit": "g" },
+      "saturated_fat": { "amount": 18, "unit": "g" },
+      "cholesterol": { "amount": 65, "unit": "mg" },
+      "serving_size": "1 serving"
+    }
+  },
+
+  "filters": {
+    "ingredient names": ["paneer", "tomato", "butter", "cream"],
+    "Meal Type": ["Dinner"],
+    "Avoid Allergens": ["Dairy"],
+    "Diet": ["Vegetarian"],
+    "Duration": ["30-60 min"],
+    "Nutrition": ["High Calcium"]
+  }
+}

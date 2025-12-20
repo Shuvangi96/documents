@@ -1,0 +1,88 @@
+{
+  "id": "italian.cacio_e_pepe.v1",
+  "primaryCuisine": "Italian",
+  "categories": ["Main Course"],
+  "source": "server",
+  "version": 1,
+  "recipe_name": "Cacio e Pepe",
+  "image": "https://images.unsplash.com/photo-1604908177225-6c8e5c9a0e2a?w=400&h=300&fit=crop",
+  "description": "A classic Roman pasta dish made with pecorino romano cheese, black pepper, and pasta water for a creamy, emulsified sauce.",
+  "calories_per_serving": 520,
+  "servings_variable": "n",
+  "ingredients": [
+    {
+      "ingredient_description": "Spaghetti",
+      "quantity_per_serving": 100,
+      "unit": "grams",
+      "allergen": "Gluten"
+    },
+    {
+      "ingredient_description": "Pecorino Romano cheese",
+      "quantity_per_serving": 40,
+      "unit": "grams",
+      "allergen": "Dairy"
+    },
+    {
+      "ingredient_description": "Black pepper",
+      "quantity_per_serving": 2,
+      "unit": "grams"
+    }
+  ],
+  "preparation": {
+    "prep_time_minutes": 5,
+    "steps": [
+      {
+        "step": "Finely grate the pecorino romano cheese and freshly grind the black pepper."
+      }
+    ]
+  },
+  "cooking": {
+    "cook_time_minutes": 15,
+    "steps": [
+      {
+        "step": "Cook the spaghetti in salted water until al dente, reserving {{water}} of pasta water.",
+        "variables": {
+          "water": {
+            "quantity_per_serving": 120,
+            "unit": "ml"
+          }
+        }
+      },
+      {
+        "step": "Toss the pasta with cheese, pepper, and reserved water until a creamy sauce forms."
+      }
+    ]
+  },
+  "nutrition": {
+    "macronutrients_per_serving": {
+      "carbohydrates": { "amount": 55, "unit": "g", "percent": 42 },
+      "protein": { "amount": 22, "unit": "g", "percent": 17 },
+      "fat": { "amount": 22, "unit": "g", "percent": 41 }
+    },
+    "caloric_sources_per_serving": {
+      "carbs_kcal": 220,
+      "protein_kcal": 88,
+      "fat_kcal": 198,
+      "total_kcal": 506
+    },
+    "micronutrients_per_serving": {
+      "calcium": { "amount": 350, "unit": "mg", "percent_dv": 27 },
+      "iron": { "amount": 2.4, "unit": "mg", "percent_dv": 13 }
+    },
+    "quick_stats_per_serving": {
+      "calories": 520,
+      "sugar": { "amount": 2, "unit": "g" },
+      "saturated_fat": { "amount": 10, "unit": "g" },
+      "cholesterol": { "amount": 35, "unit": "mg" },
+      "serving_size": "1 serving"
+    }
+  },
+  "filters": {
+    "ingredient names": ["spaghetti", "pecorino romano", "black pepper"],
+    "Meal Type": ["Dinner"],
+    "Avoid Allergens": ["Gluten", "Dairy"],
+    "Diet": ["Vegetarian"],
+    "Duration": ["15-30 min"],
+    "Nutrition": ["High Calcium"]
+  }
+}

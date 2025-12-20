@@ -1,0 +1,86 @@
+{
+  "id": "indian.gulab_jamun.v1",
+  "primaryCuisine": "Indian",
+  "categories": ["Dessert"],
+  "source": "server",
+  "version": 1,
+  "recipe_name": "Gulab Jamun",
+  "image": "https://images.unsplash.com/photo-1627308595186-ea4b6d44b0c2?w=400&h=300&fit=crop",
+  "description": "Soft, deep-fried milk-solid dumplings soaked in fragrant sugar syrup flavored with cardamom and rose.",
+  "calories_per_serving": 360,
+  "servings_variable": "n",
+  "ingredients": [
+    {
+      "ingredient_description": "Milk powder",
+      "quantity_per_serving": 40,
+      "unit": "grams",
+      "allergen": "Dairy"
+    },
+    {
+      "ingredient_description": "All-purpose flour",
+      "quantity_per_serving": 15,
+      "unit": "grams",
+      "allergen": "Gluten"
+    },
+    {
+      "ingredient_description": "Sugar",
+      "quantity_per_serving": 45,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Cardamom",
+      "quantity_per_serving": 1,
+      "unit": "grams"
+    }
+  ],
+  "preparation": {
+    "prep_time_minutes": 15,
+    "steps": [
+      {
+        "step": "Prepare a soft dough using milk powder and flour, and form small balls."
+      }
+    ]
+  },
+  "cooking": {
+    "cook_time_minutes": 20,
+    "steps": [
+      {
+        "step": "Fry the dough balls until golden brown."
+      },
+      {
+        "step": "Soak the fried balls in warm sugar syrup flavored with cardamom."
+      }
+    ]
+  },
+  "nutrition": {
+    "macronutrients_per_serving": {
+      "carbohydrates": { "amount": 45, "unit": "g", "percent": 50 },
+      "protein": { "amount": 8, "unit": "g", "percent": 9 },
+      "fat": { "amount": 16, "unit": "g", "percent": 41 }
+    },
+    "caloric_sources_per_serving": {
+      "carbs_kcal": 180,
+      "protein_kcal": 32,
+      "fat_kcal": 144,
+      "total_kcal": 356
+    },
+    "micronutrients_per_serving": {
+      "calcium": { "amount": 180, "unit": "mg", "percent_dv": 14 }
+    },
+    "quick_stats_per_serving": {
+      "calories": 360,
+      "sugar": { "amount": 30, "unit": "g" },
+      "saturated_fat": { "amount": 8, "unit": "g" },
+      "cholesterol": { "amount": 25, "unit": "mg" },
+      "serving_size": "1 serving"
+    }
+  },
+  "filters": {
+    "ingredient names": ["milk powder", "all-purpose flour", "sugar", "cardamom"],
+    "Meal Type": ["Dessert"],
+    "Avoid Allergens": ["Dairy", "Gluten"],
+    "Diet": ["Vegetarian"],
+    "Duration": ["30-60 min"],
+    "Nutrition": ["High Calcium"]
+  }
+}

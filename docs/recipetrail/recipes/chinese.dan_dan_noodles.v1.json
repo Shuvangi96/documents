@@ -1,0 +1,87 @@
+{
+  "id": "chinese.dan_dan_noodles.v1",
+  "primaryCuisine": "Chinese",
+  "categories": ["Quick Meals"],
+  "source": "server",
+  "version": 1,
+  "recipe_name": "Sichuan Dan Dan Noodles",
+  "image": "https://images.unsplash.com/photo-1617196034796-73d9f3c0bb28?w=400&h=300&fit=crop",
+  "description": "Spicy Sichuan-style noodles with minced pork, chili oil, and sesame paste, delivering bold and numbing flavors.",
+  "calories_per_serving": 580,
+  "servings_variable": "n",
+  "ingredients": [
+    {
+      "ingredient_description": "Wheat noodles",
+      "quantity_per_serving": 120,
+      "unit": "grams",
+      "allergen": "Gluten"
+    },
+    {
+      "ingredient_description": "Ground pork",
+      "quantity_per_serving": 60,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Chili oil",
+      "quantity_per_serving": 15,
+      "unit": "ml"
+    },
+    {
+      "ingredient_description": "Sesame paste",
+      "quantity_per_serving": 20,
+      "unit": "grams",
+      "allergen": "Sesame"
+    }
+  ],
+  "preparation": {
+    "prep_time_minutes": 10,
+    "steps": [
+      {
+        "step": "Prepare the sauce by mixing chili oil and sesame paste."
+      }
+    ]
+  },
+  "cooking": {
+    "cook_time_minutes": 10,
+    "steps": [
+      {
+        "step": "Cook the noodles and brown the ground pork in a pan."
+      },
+      {
+        "step": "Combine noodles with sauce and pork, tossing well before serving."
+      }
+    ]
+  },
+  "nutrition": {
+    "macronutrients_per_serving": {
+      "carbohydrates": { "amount": 60, "unit": "g", "percent": 41 },
+      "protein": { "amount": 28, "unit": "g", "percent": 19 },
+      "fat": { "amount": 24, "unit": "g", "percent": 40 }
+    },
+    "caloric_sources_per_serving": {
+      "carbs_kcal": 240,
+      "protein_kcal": 112,
+      "fat_kcal": 216,
+      "total_kcal": 568
+    },
+    "micronutrients_per_serving": {
+      "iron": { "amount": 3.1, "unit": "mg", "percent_dv": 17 },
+      "calcium": { "amount": 80, "unit": "mg", "percent_dv": 6 }
+    },
+    "quick_stats_per_serving": {
+      "calories": 580,
+      "sugar": { "amount": 3, "unit": "g" },
+      "saturated_fat": { "amount": 6, "unit": "g" },
+      "cholesterol": { "amount": 55, "unit": "mg" },
+      "serving_size": "1 serving"
+    }
+  },
+  "filters": {
+    "ingredient names": ["wheat noodles", "ground pork", "chili oil", "sesame paste"],
+    "Meal Type": ["Lunch", "Dinner"],
+    "Avoid Allergens": ["Gluten", "Sesame"],
+    "Diet": [],
+    "Duration": ["Under 15 min"],
+    "Nutrition": ["High Protein"]
+  }
+}

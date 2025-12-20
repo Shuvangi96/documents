@@ -1,0 +1,72 @@
+{
+  "id": "korean.tteokbokki.v1",
+  "primaryCuisine": "Korean",
+  "categories": ["Quick Meals"],
+  "source": "server",
+  "version": 1,
+
+  "recipe_name": "Tteokbokki",
+  "image": "https://images.unsplash.com/photo-1626074353510-8e3e69d1b4c4?w=400&h=300&fit=crop",
+  "description": "Chewy rice cakes simmered in a spicy-sweet gochujang sauce.",
+  "calories_per_serving": 380,
+  "servings_variable": "n",
+
+  "ingredients": [
+    { "ingredient_description": "Rice cakes", "quantity_per_serving": 180, "unit": "grams" },
+    { "ingredient_description": "Gochujang", "quantity_per_serving": 20, "unit": "grams", "allergen": "Soy" },
+    { "ingredient_description": "Sugar", "quantity_per_serving": 10, "unit": "grams" }
+  ],
+
+  "preparation": {
+    "prep_time_minutes": 5,
+    "steps": [
+      { "step": "Soak rice cakes in warm water if hardened." }
+    ]
+  },
+
+  "cooking": {
+    "cook_time_minutes": 10,
+    "steps": [
+      {
+        "step": "Simmer rice cakes with {{gochujang}} and {{sugar}} until sauce thickens.",
+        "variables": {
+          "gochujang": { "quantity_per_serving": 20, "unit": "grams" },
+          "sugar": { "quantity_per_serving": 10, "unit": "grams" }
+        }
+      }
+    ]
+  },
+
+  "nutrition": {
+    "macronutrients_per_serving": {
+      "carbohydrates": { "amount": 75, "unit": "g", "percent": 78 },
+      "protein": { "amount": 6, "unit": "g", "percent": 6 },
+      "fat": { "amount": 6, "unit": "g", "percent": 16 }
+    },
+    "caloric_sources_per_serving": {
+      "carbs_kcal": 300,
+      "protein_kcal": 24,
+      "fat_kcal": 54,
+      "total_kcal": 378
+    },
+    "micronutrients_per_serving": {
+      "sodium": { "amount": 680, "unit": "mg", "percent_dv": 30 }
+    },
+    "quick_stats_per_serving": {
+      "calories": 380,
+      "sugar": { "amount": 14, "unit": "g" },
+      "saturated_fat": { "amount": 1, "unit": "g" },
+      "cholesterol": { "amount": 0, "unit": "mg" },
+      "serving_size": "1 serving"
+    }
+  },
+
+  "filters": {
+    "ingredient names": ["rice cakes", "gochujang", "sugar"],
+    "Meal Type": ["Snack"],
+    "Avoid Allergens": ["Soy"],
+    "Diet": [],
+    "Duration": ["Under 15 min"],
+    "Nutrition": ["Low Fat"]
+  }
+}

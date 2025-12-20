@@ -1,0 +1,75 @@
+{
+  "id": "italian.panna_cotta.v1",
+  "primaryCuisine": "Italian",
+  "categories": ["Dessert"],
+  "source": "server",
+  "version": 1,
+
+  "recipe_name": "Panna Cotta",
+  "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=400&h=300&fit=crop",
+  "description": "Classic Italian panna cotta made with cream, vanilla, and a delicate gelatin set, served silky smooth.",
+  "calories_per_serving": 320,
+  "servings_variable": "n",
+
+  "ingredients": [
+    { "ingredient_description": "Heavy cream", "quantity_per_serving": 200, "unit": "ml", "allergen": "Dairy" },
+    { "ingredient_description": "Sugar", "quantity_per_serving": 25, "unit": "grams" },
+    { "ingredient_description": "Gelatin", "quantity_per_serving": 3, "unit": "grams" },
+    { "ingredient_description": "Vanilla extract", "quantity_per_serving": 2, "unit": "ml" }
+  ],
+
+  "preparation": {
+    "prep_time_minutes": 10,
+    "steps": [
+      { "step": "Bloom the gelatin in cold water for 5 minutes." }
+    ]
+  },
+
+  "cooking": {
+    "cook_time_minutes": 10,
+    "steps": [
+      {
+        "step": "Heat {{cream}} with {{sugar}} until dissolved, then stir in gelatin and {{vanilla}}.",
+        "variables": {
+          "cream": { "quantity_per_serving": 200, "unit": "ml" },
+          "sugar": { "quantity_per_serving": 25, "unit": "grams" },
+          "vanilla": { "quantity_per_serving": 2, "unit": "ml" }
+        }
+      },
+      { "step": "Pour into molds and chill until set." }
+    ]
+  },
+
+  "nutrition": {
+    "macronutrients_per_serving": {
+      "carbohydrates": { "amount": 28, "unit": "g", "percent": 35 },
+      "protein": { "amount": 5, "unit": "g", "percent": 6 },
+      "fat": { "amount": 22, "unit": "g", "percent": 59 }
+    },
+    "caloric_sources_per_serving": {
+      "carbs_kcal": 112,
+      "protein_kcal": 20,
+      "fat_kcal": 198,
+      "total_kcal": 330
+    },
+    "micronutrients_per_serving": {
+      "calcium": { "amount": 120, "unit": "mg", "percent_dv": 9 }
+    },
+    "quick_stats_per_serving": {
+      "calories": 320,
+      "sugar": { "amount": 24, "unit": "g" },
+      "saturated_fat": { "amount": 14, "unit": "g" },
+      "cholesterol": { "amount": 70, "unit": "mg" },
+      "serving_size": "1 serving"
+    }
+  },
+
+  "filters": {
+    "ingredient names": ["cream", "sugar", "gelatin", "vanilla"],
+    "Meal Type": ["Dessert"],
+    "Avoid Allergens": ["Dairy"],
+    "Diet": [],
+    "Duration": ["15-30 min"],
+    "Nutrition": ["Low Sodium"]
+  }
+}
