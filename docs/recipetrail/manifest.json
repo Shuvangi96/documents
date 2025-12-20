@@ -48,7 +48,9 @@
         "chinese.dan_dan_noodles.v1",
         "indian.gulab_jamun.v1"
       ],
-      "image": "collections_recipes_of_the_month.jpg"
+    },
+    "discover_more": {
+        "image": "discover_more.jpg"
     }
   }
 }
