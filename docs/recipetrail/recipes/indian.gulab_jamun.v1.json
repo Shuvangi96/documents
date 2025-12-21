@@ -5,39 +5,85 @@
   "source": "server",
   "version": 1,
   "recipe_name": "Gulab Jamun",
-  "image": "https://images.unsplash.com/photo-1627308595186-ea4b6d44b0c2?w=400&h=300&fit=crop",
-  "description": "Soft, deep-fried milk-solid dumplings soaked in fragrant sugar syrup flavored with cardamom and rose.",
-  "calories_per_serving": 360,
+  "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&h=300&fit=crop",
+  "description": "A classic Indian dessert made from soft milk-solid dumplings, deep-fried until golden and soaked in fragrant sugar syrup infused with cardamom and rose notes.",
+  "calories_per_serving": 290,
   "servings_variable": "n",
   "ingredients": [
     {
-      "ingredient_description": "Milk powder",
-      "quantity_per_serving": 40,
+      "ingredient_description": "Khoya (milk solids), finely grated",
+      "quantity_per_serving": 60,
       "unit": "grams",
       "allergen": "Dairy"
     },
     {
-      "ingredient_description": "All-purpose flour",
-      "quantity_per_serving": 15,
+      "ingredient_description": "All-Purpose Flour",
+      "quantity_per_serving": 10,
       "unit": "grams",
       "allergen": "Gluten"
     },
     {
-      "ingredient_description": "Sugar",
-      "quantity_per_serving": 45,
+      "ingredient_description": "Baking Powder",
+      "quantity_per_serving": 1,
       "unit": "grams"
     },
     {
-      "ingredient_description": "Cardamom",
-      "quantity_per_serving": 1,
+      "ingredient_description": "Milk",
+      "quantity_per_serving": 10,
+      "unit": "ml",
+      "allergen": "Dairy"
+    },
+    {
+      "ingredient_description": "Sugar",
+      "quantity_per_serving": 55,
       "unit": "grams"
+    },
+    {
+      "ingredient_description": "Water",
+      "quantity_per_serving": 60,
+      "unit": "ml"
+    },
+    {
+      "ingredient_description": "Cardamom",
+      "quantity_per_serving": 0.5,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Ghee",
+      "quantity_per_serving": 30,
+      "unit": "ml",
+      "allergen": "Dairy"
     }
   ],
   "preparation": {
-    "prep_time_minutes": 15,
+    "prep_time_minutes": 20,
     "steps": [
       {
-        "step": "Prepare a soft dough using milk powder and flour, and form small balls."
+        "step": "In a bowl, gently mix {{khoya}}, {{flour}}, and {{baking_powder}} until combined.",
+        "variables": {
+          "khoya": { "quantity_per_serving": 60, "unit": "grams" },
+          "flour": { "quantity_per_serving": 10, "unit": "grams" },
+          "baking_powder": { "quantity_per_serving": 1, "unit": "grams" }
+        }
+      },
+      {
+        "step": "Add {{milk}} gradually and knead lightly to form a soft, smooth dough. Do not overwork.",
+        "variables": {
+          "milk": { "quantity_per_serving": 10, "unit": "ml" }
+        }
+      },
+      {
+        "step": "Divide the dough into small equal portions and roll gently into crack-free balls."
+      },
+      {
+        "step": "In a saucepan, combine {{sugar}} and {{water}} and bring to a boil to prepare the syrup.",
+        "variables": {
+          "sugar": { "quantity_per_serving": 55, "unit": "grams" },
+          "water": { "quantity_per_serving": 60, "unit": "ml" }
+        }
+      },
+      {
+        "step": "Add crushed cardamom to the syrup and keep warm on low heat."
       }
     ]
   },
@@ -45,42 +91,64 @@
     "cook_time_minutes": 20,
     "steps": [
       {
-        "step": "Fry the dough balls until golden brown."
+        "step": "Heat {{ghee}} in a deep pan over low-medium heat.",
+        "variables": {
+          "ghee": { "quantity_per_serving": 30, "unit": "ml" }
+        }
       },
       {
-        "step": "Soak the fried balls in warm sugar syrup flavored with cardamom."
+        "step": "Fry the dough balls gently, stirring continuously, until evenly golden brown (8–10 minutes)."
+      },
+      {
+        "step": "Remove fried jamuns and immediately transfer them into the warm sugar syrup."
+      },
+      {
+        "step": "Allow the gulab jamuns to soak in the syrup for at least 30 minutes before serving."
       }
     ]
   },
   "nutrition": {
     "macronutrients_per_serving": {
-      "carbohydrates": { "amount": 45, "unit": "g", "percent": 50 },
-      "protein": { "amount": 8, "unit": "g", "percent": 9 },
-      "fat": { "amount": 16, "unit": "g", "percent": 41 }
+      "carbohydrates": { "amount": 42, "unit": "g", "percent": 58 },
+      "protein": { "amount": 6, "unit": "g", "percent": 8 },
+      "fat": { "amount": 12, "unit": "g", "percent": 34 }
     },
     "caloric_sources_per_serving": {
-      "carbs_kcal": 180,
-      "protein_kcal": 32,
-      "fat_kcal": 144,
-      "total_kcal": 356
+      "carbs_kcal": 168,
+      "protein_kcal": 24,
+      "fat_kcal": 108,
+      "total_kcal": 300
     },
     "micronutrients_per_serving": {
-      "calcium": { "amount": 180, "unit": "mg", "percent_dv": 14 }
+      "sodium": { "amount": 70, "unit": "mg", "percent_dv": 3 },
+      "fiber": { "amount": 0.5, "unit": "g", "percent_dv": 2 },
+      "calcium": { "amount": 90, "unit": "mg", "percent_dv": 7 },
+      "iron": { "amount": 0.6, "unit": "mg", "percent_dv": 3 },
+      "vitamin_a": { "amount": 85, "unit": "mcg", "percent_dv": 9 },
+      "vitamin_c": { "amount": 0, "unit": "mg", "percent_dv": 0 }
     },
     "quick_stats_per_serving": {
-      "calories": 360,
-      "sugar": { "amount": 30, "unit": "g" },
-      "saturated_fat": { "amount": 8, "unit": "g" },
-      "cholesterol": { "amount": 25, "unit": "mg" },
-      "serving_size": "1 serving"
+      "calories": 290,
+      "sugar": { "amount": 28, "unit": "g" },
+      "saturated_fat": { "amount": 7, "unit": "g" },
+      "cholesterol": { "amount": 35, "unit": "mg" },
+      "serving_size": "2 pieces"
     }
   },
   "filters": {
-    "ingredient names": ["milk powder", "all-purpose flour", "sugar", "cardamom"],
+    "ingredient names": [
+      "All-Purpose Flour",
+      "Baking Powder",
+      "Milk",
+      "Sugar",
+      "Water",
+      "Ghee",
+      "Khoya/Milk Solids"
+    ],
     "Meal Type": ["Dessert"],
     "Avoid Allergens": ["Dairy", "Gluten"],
     "Diet": ["Vegetarian"],
     "Duration": ["30-60 min"],
-    "Nutrition": ["High Calcium"]
+    "Nutrition": []
   }
 }

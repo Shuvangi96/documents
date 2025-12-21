@@ -1,87 +1,185 @@
 {
   "id": "chinese.dan_dan_noodles.v1",
   "primaryCuisine": "Chinese",
-  "categories": ["Quick Meals"],
+  "categories": ["Main Course"],
   "source": "server",
   "version": 1,
-  "recipe_name": "Sichuan Dan Dan Noodles",
-  "image": "https://images.unsplash.com/photo-1617196034796-73d9f3c0bb28?w=400&h=300&fit=crop",
-  "description": "Spicy Sichuan-style noodles with minced pork, chili oil, and sesame paste, delivering bold and numbing flavors.",
-  "calories_per_serving": 580,
+  "recipe_name": "Dan Dan Noodles",
+  "image": "https://images.unsplash.com/photo-1625944526363-8d9b9f7f0b5a?w=400&h=300&fit=crop",
+  "description": "A classic Sichuan noodle dish featuring springy noodles tossed in a spicy, nutty sesame sauce, topped with savory ground pork, aromatic chili oil, and fragrant Sichuan peppercorns.",
+  "calories_per_serving": 520,
   "servings_variable": "n",
   "ingredients": [
     {
-      "ingredient_description": "Wheat noodles",
-      "quantity_per_serving": 120,
-      "unit": "grams",
-      "allergen": "Gluten"
-    },
-    {
-      "ingredient_description": "Ground pork",
-      "quantity_per_serving": 60,
+      "ingredient_description": "Noodles",
+      "quantity_per_serving": 100,
       "unit": "grams"
     },
     {
-      "ingredient_description": "Chili oil",
+      "ingredient_description": "Ground pork",
+      "quantity_per_serving": 80,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Doubanjiang",
+      "quantity_per_serving": 10,
+      "unit": "grams",
+      "allergen": "Soy"
+    },
+    {
+      "ingredient_description": "Soy sauce",
       "quantity_per_serving": 15,
+      "unit": "ml",
+      "allergen": "Soy"
+    },
+    {
+      "ingredient_description": "Tahini",
+      "quantity_per_serving": 15,
+      "unit": "grams",
+      "allergen": "Sesame"
+    },
+    {
+      "ingredient_description": "Sesame Oil",
+      "quantity_per_serving": 5,
+      "unit": "ml",
+      "allergen": "Sesame"
+    },
+    {
+      "ingredient_description": "Vegetable Oil",
+      "quantity_per_serving": 10,
       "unit": "ml"
     },
     {
-      "ingredient_description": "Sesame paste",
-      "quantity_per_serving": 20,
-      "unit": "grams",
-      "allergen": "Sesame"
+      "ingredient_description": "Garlic",
+      "quantity_per_serving": 5,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Ginger",
+      "quantity_per_serving": 5,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Chili Flakes",
+      "quantity_per_serving": 4,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Sichuan Peppercorns",
+      "quantity_per_serving": 1,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Spring Onions/Scallions",
+      "quantity_per_serving": 10,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Sugar",
+      "quantity_per_serving": 4,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Water",
+      "quantity_per_serving": 60,
+      "unit": "ml"
     }
   ],
   "preparation": {
-    "prep_time_minutes": 10,
+    "prep_time_minutes": 15,
     "steps": [
       {
-        "step": "Prepare the sauce by mixing chili oil and sesame paste."
+        "step": "Prepare the sauce by mixing {{tahini}}, {{soy}}, {{sesame_oil}}, {{sugar}}, and {{water}} until smooth.",
+        "variables": {
+          "tahini": { "quantity_per_serving": 15, "unit": "grams" },
+          "soy": { "quantity_per_serving": 10, "unit": "ml" },
+          "sesame_oil": { "quantity_per_serving": 5, "unit": "ml" },
+          "sugar": { "quantity_per_serving": 4, "unit": "grams" },
+          "water": { "quantity_per_serving": 60, "unit": "ml" }
+        }
+      },
+      {
+        "step": "Finely mince garlic and ginger, slice spring onions, and lightly crush Sichuan peppercorns."
+      },
+      {
+        "step": "Bring a pot of water to a boil in preparation for cooking the noodles."
       }
     ]
   },
   "cooking": {
-    "cook_time_minutes": 10,
+    "cook_time_minutes": 15,
     "steps": [
       {
-        "step": "Cook the noodles and brown the ground pork in a pan."
+        "step": "Cook noodles according to package instructions until al dente. Drain and set aside."
       },
       {
-        "step": "Combine noodles with sauce and pork, tossing well before serving."
+        "step": "Heat {{oil}} of vegetable oil in a wok over medium-high heat.",
+        "variables": {
+          "oil": { "quantity_per_serving": 10, "unit": "ml" }
+        }
+      },
+      {
+        "step": "Add ground pork and stir-fry for 3–4 minutes until browned."
+      },
+      {
+        "step": "Stir in doubanjiang, garlic, ginger, chili flakes, and Sichuan peppercorns. Cook for 1–2 minutes until aromatic."
+      },
+      {
+        "step": "Divide prepared sauce into serving bowls, top with noodles, then spoon the pork mixture over the top."
+      },
+      {
+        "step": "Garnish with spring onions and serve immediately."
       }
     ]
   },
   "nutrition": {
     "macronutrients_per_serving": {
-      "carbohydrates": { "amount": 60, "unit": "g", "percent": 41 },
-      "protein": { "amount": 28, "unit": "g", "percent": 19 },
-      "fat": { "amount": 24, "unit": "g", "percent": 40 }
+      "carbohydrates": { "amount": 55, "unit": "g", "percent": 42 },
+      "protein": { "amount": 26, "unit": "g", "percent": 20 },
+      "fat": { "amount": 24, "unit": "g", "percent": 38 }
     },
     "caloric_sources_per_serving": {
-      "carbs_kcal": 240,
-      "protein_kcal": 112,
+      "carbs_kcal": 220,
+      "protein_kcal": 104,
       "fat_kcal": 216,
-      "total_kcal": 568
+      "total_kcal": 540
     },
     "micronutrients_per_serving": {
-      "iron": { "amount": 3.1, "unit": "mg", "percent_dv": 17 },
-      "calcium": { "amount": 80, "unit": "mg", "percent_dv": 6 }
+      "sodium": { "amount": 980, "unit": "mg", "percent_dv": 43 },
+      "fiber": { "amount": 4, "unit": "g", "percent_dv": 14 },
+      "calcium": { "amount": 60, "unit": "mg", "percent_dv": 5 },
+      "iron": { "amount": 3, "unit": "mg", "percent_dv": 17 },
+      "vitamin_a": { "amount": 120, "unit": "mcg", "percent_dv": 13 },
+      "vitamin_c": { "amount": 6, "unit": "mg", "percent_dv": 7 }
     },
     "quick_stats_per_serving": {
-      "calories": 580,
-      "sugar": { "amount": 3, "unit": "g" },
-      "saturated_fat": { "amount": 6, "unit": "g" },
+      "calories": 520,
+      "sugar": { "amount": 5, "unit": "g" },
+      "saturated_fat": { "amount": 5, "unit": "g" },
       "cholesterol": { "amount": 55, "unit": "mg" },
-      "serving_size": "1 serving"
+      "serving_size": "1 bowl"
     }
   },
   "filters": {
-    "ingredient names": ["wheat noodles", "ground pork", "chili oil", "sesame paste"],
+    "ingredient names": [
+      "Noodles",
+      "Ground Pork",
+      "Doubanjiang",
+      "Soy Sauce",
+      "Tahini",
+      "Sesame Oil",
+      "Vegetable Oil",
+      "Garlic",
+      "Ginger",
+      "Chili Flakes",
+      "Sichuan Peppercorns",
+      "Spring Onions/Scallions",
+      "Sugar"
+    ],
     "Meal Type": ["Lunch", "Dinner"],
-    "Avoid Allergens": ["Gluten", "Sesame"],
-    "Diet": [],
-    "Duration": ["Under 15 min"],
+    "Avoid Allergens": ["Soy", "Sesame"],
+    "Diet": ["Dairy-Free"],
+    "Duration": ["30-60 min"],
     "Nutrition": ["High Protein"]
   }
 }

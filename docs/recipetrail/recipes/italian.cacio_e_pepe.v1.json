@@ -5,9 +5,9 @@
   "source": "server",
   "version": 1,
   "recipe_name": "Cacio e Pepe",
-  "image": "https://images.unsplash.com/photo-1604908177225-6c8e5c9a0e2a?w=400&h=300&fit=crop",
-  "description": "A classic Roman pasta dish made with pecorino romano cheese, black pepper, and pasta water for a creamy, emulsified sauce.",
-  "calories_per_serving": 520,
+  "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400&h=300&fit=crop",
+  "description": "A classic Roman pasta dish made with spaghetti tossed in a silky emulsion of aged cheese, freshly cracked black pepper, and starchy pasta water—simple, bold, and deeply satisfying.",
+  "calories_per_serving": 460,
   "servings_variable": "n",
   "ingredients": [
     {
@@ -17,22 +17,41 @@
       "allergen": "Gluten"
     },
     {
-      "ingredient_description": "Pecorino Romano cheese",
+      "ingredient_description": "Pecorino Romano cheese, finely grated",
       "quantity_per_serving": 40,
       "unit": "grams",
       "allergen": "Dairy"
     },
     {
-      "ingredient_description": "Black pepper",
+      "ingredient_description": "Black Pepper, freshly ground",
       "quantity_per_serving": 2,
       "unit": "grams"
+    },
+    {
+      "ingredient_description": "Salt",
+      "quantity_per_serving": 3,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Water",
+      "quantity_per_serving": 120,
+      "unit": "ml"
     }
   ],
   "preparation": {
-    "prep_time_minutes": 5,
+    "prep_time_minutes": 10,
     "steps": [
       {
-        "step": "Finely grate the pecorino romano cheese and freshly grind the black pepper."
+        "step": "Finely grate the cheese and set aside at room temperature."
+      },
+      {
+        "step": "Crack black pepper coarsely using a mortar or grinder."
+      },
+      {
+        "step": "Bring a pot of water to boil and season with {{salt}}.",
+        "variables": {
+          "salt": { "quantity_per_serving": 3, "unit": "grams" }
+        }
       }
     ]
   },
@@ -40,46 +59,65 @@
     "cook_time_minutes": 15,
     "steps": [
       {
-        "step": "Cook the spaghetti in salted water until al dente, reserving {{water}} of pasta water.",
+        "step": "Cook spaghetti in boiling water until al dente, reserving {{water}} of pasta water before draining.",
         "variables": {
-          "water": {
-            "quantity_per_serving": 120,
-            "unit": "ml"
-          }
+          "water": { "quantity_per_serving": 120, "unit": "ml" }
         }
       },
       {
-        "step": "Toss the pasta with cheese, pepper, and reserved water until a creamy sauce forms."
+        "step": "Toast black pepper in a dry pan over low heat for 30–40 seconds until aromatic."
+      },
+      {
+        "step": "Add reserved pasta water to the pan and bring to a gentle simmer."
+      },
+      {
+        "step": "Add drained spaghetti to the pan and toss to coat evenly."
+      },
+      {
+        "step": "Remove pan from heat and gradually add grated cheese, stirring continuously to form a creamy emulsion."
+      },
+      {
+        "step": "Adjust consistency with additional pasta water if needed and serve immediately."
       }
     ]
   },
   "nutrition": {
     "macronutrients_per_serving": {
-      "carbohydrates": { "amount": 55, "unit": "g", "percent": 42 },
-      "protein": { "amount": 22, "unit": "g", "percent": 17 },
-      "fat": { "amount": 22, "unit": "g", "percent": 41 }
+      "carbohydrates": { "amount": 55, "unit": "g", "percent": 48 },
+      "protein": { "amount": 18, "unit": "g", "percent": 16 },
+      "fat": { "amount": 20, "unit": "g", "percent": 36 }
     },
     "caloric_sources_per_serving": {
       "carbs_kcal": 220,
-      "protein_kcal": 88,
-      "fat_kcal": 198,
-      "total_kcal": 506
+      "protein_kcal": 72,
+      "fat_kcal": 180,
+      "total_kcal": 472
     },
     "micronutrients_per_serving": {
-      "calcium": { "amount": 350, "unit": "mg", "percent_dv": 27 },
-      "iron": { "amount": 2.4, "unit": "mg", "percent_dv": 13 }
+      "sodium": { "amount": 720, "unit": "mg", "percent_dv": 31 },
+      "fiber": { "amount": 3, "unit": "g", "percent_dv": 11 },
+      "calcium": { "amount": 280, "unit": "mg", "percent_dv": 22 },
+      "iron": { "amount": 2.1, "unit": "mg", "percent_dv": 12 },
+      "vitamin_a": { "amount": 160, "unit": "mcg", "percent_dv": 18 },
+      "vitamin_c": { "amount": 0, "unit": "mg", "percent_dv": 0 }
     },
     "quick_stats_per_serving": {
-      "calories": 520,
+      "calories": 460,
       "sugar": { "amount": 2, "unit": "g" },
       "saturated_fat": { "amount": 10, "unit": "g" },
-      "cholesterol": { "amount": 35, "unit": "mg" },
-      "serving_size": "1 serving"
+      "cholesterol": { "amount": 45, "unit": "mg" },
+      "serving_size": "1 bowl"
     }
   },
   "filters": {
-    "ingredient names": ["spaghetti", "pecorino romano", "black pepper"],
-    "Meal Type": ["Dinner"],
+    "ingredient names": [
+      "Spaghetti",
+      "Cheese",
+      "Black Pepper",
+      "Salt",
+      "Water"
+    ],
+    "Meal Type": ["Lunch", "Dinner"],
     "Avoid Allergens": ["Gluten", "Dairy"],
     "Diet": ["Vegetarian"],
     "Duration": ["15-30 min"],

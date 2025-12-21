@@ -4,72 +4,124 @@
   "categories": ["Dessert"],
   "source": "server",
   "version": 1,
-
   "recipe_name": "Panna Cotta",
-  "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=400&h=300&fit=crop",
-  "description": "Classic Italian panna cotta made with cream, vanilla, and a delicate gelatin set, served silky smooth.",
-  "calories_per_serving": 320,
+  "image": "https://images.unsplash.com/photo-1625944525533-473f1a3b4f7c?w=400&h=300&fit=crop",
+  "description": "A classic Italian dessert made by gently setting sweetened cream with vanilla into a silky, delicate custard that melts in the mouth.",
+  "calories_per_serving": 310,
   "servings_variable": "n",
-
   "ingredients": [
-    { "ingredient_description": "Heavy cream", "quantity_per_serving": 200, "unit": "ml", "allergen": "Dairy" },
-    { "ingredient_description": "Sugar", "quantity_per_serving": 25, "unit": "grams" },
-    { "ingredient_description": "Gelatin", "quantity_per_serving": 3, "unit": "grams" },
-    { "ingredient_description": "Vanilla extract", "quantity_per_serving": 2, "unit": "ml" }
+    {
+      "ingredient_description": "Cream",
+      "quantity_per_serving": 120,
+      "unit": "ml",
+      "allergen": "Dairy"
+    },
+    {
+      "ingredient_description": "Milk",
+      "quantity_per_serving": 40,
+      "unit": "ml",
+      "allergen": "Dairy"
+    },
+    {
+      "ingredient_description": "Sugar",
+      "quantity_per_serving": 20,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Vanilla Extract",
+      "quantity_per_serving": 2,
+      "unit": "ml"
+    },
+    {
+      "ingredient_description": "Gelatin, powdered",
+      "quantity_per_serving": 3,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Water",
+      "quantity_per_serving": 15,
+      "unit": "ml"
+    }
   ],
-
   "preparation": {
     "prep_time_minutes": 10,
     "steps": [
-      { "step": "Bloom the gelatin in cold water for 5 minutes." }
+      {
+        "step": "Bloom the gelatin by sprinkling {{gelatin}} over {{water}} and letting it stand for 5 minutes.",
+        "variables": {
+          "gelatin": { "quantity_per_serving": 3, "unit": "grams" },
+          "water": { "quantity_per_serving": 15, "unit": "ml" }
+        }
+      },
+      {
+        "step": "In a saucepan, combine cream, milk, and sugar."
+      },
+      {
+        "step": "Prepare serving molds or glasses and set aside."
+      }
     ]
   },
-
   "cooking": {
     "cook_time_minutes": 10,
     "steps": [
       {
-        "step": "Heat {{cream}} with {{sugar}} until dissolved, then stir in gelatin and {{vanilla}}.",
-        "variables": {
-          "cream": { "quantity_per_serving": 200, "unit": "ml" },
-          "sugar": { "quantity_per_serving": 25, "unit": "grams" },
-          "vanilla": { "quantity_per_serving": 2, "unit": "ml" }
-        }
+        "step": "Heat the cream mixture gently over low heat, stirring until sugar dissolves. Do not boil."
       },
-      { "step": "Pour into molds and chill until set." }
+      {
+        "step": "Remove from heat and stir in bloomed gelatin until fully dissolved."
+      },
+      {
+        "step": "Add vanilla extract and mix well."
+      },
+      {
+        "step": "Pour the mixture into prepared molds and allow to cool slightly before refrigerating."
+      },
+      {
+        "step": "Chill for at least 4 hours, or until fully set."
+      }
     ]
   },
-
   "nutrition": {
     "macronutrients_per_serving": {
-      "carbohydrates": { "amount": 28, "unit": "g", "percent": 35 },
-      "protein": { "amount": 5, "unit": "g", "percent": 6 },
-      "fat": { "amount": 22, "unit": "g", "percent": 59 }
+      "carbohydrates": { "amount": 18, "unit": "g", "percent": 23 },
+      "protein": { "amount": 4, "unit": "g", "percent": 5 },
+      "fat": { "amount": 26, "unit": "g", "percent": 72 }
     },
     "caloric_sources_per_serving": {
-      "carbs_kcal": 112,
-      "protein_kcal": 20,
-      "fat_kcal": 198,
-      "total_kcal": 330
+      "carbs_kcal": 72,
+      "protein_kcal": 16,
+      "fat_kcal": 234,
+      "total_kcal": 322
     },
     "micronutrients_per_serving": {
-      "calcium": { "amount": 120, "unit": "mg", "percent_dv": 9 }
+      "sodium": { "amount": 55, "unit": "mg", "percent_dv": 2 },
+      "fiber": { "amount": 0, "unit": "g", "percent_dv": 0 },
+      "calcium": { "amount": 120, "unit": "mg", "percent_dv": 9 },
+      "iron": { "amount": 0.2, "unit": "mg", "percent_dv": 1 },
+      "vitamin_a": { "amount": 240, "unit": "mcg", "percent_dv": 27 },
+      "vitamin_c": { "amount": 0, "unit": "mg", "percent_dv": 0 }
     },
     "quick_stats_per_serving": {
-      "calories": 320,
-      "sugar": { "amount": 24, "unit": "g" },
-      "saturated_fat": { "amount": 14, "unit": "g" },
-      "cholesterol": { "amount": 70, "unit": "mg" },
-      "serving_size": "1 serving"
+      "calories": 310,
+      "sugar": { "amount": 18, "unit": "g" },
+      "saturated_fat": { "amount": 17, "unit": "g" },
+      "cholesterol": { "amount": 85, "unit": "mg" },
+      "serving_size": "1 cup"
     }
   },
-
   "filters": {
-    "ingredient names": ["cream", "sugar", "gelatin", "vanilla"],
+    "ingredient names": [
+      "Gelatin",
+      "Cream",
+      "Milk",
+      "Sugar",
+      "Vanilla Extract",
+      "Water"
+    ],
     "Meal Type": ["Dessert"],
     "Avoid Allergens": ["Dairy"],
-    "Diet": [],
-    "Duration": ["15-30 min"],
-    "Nutrition": ["Low Sodium"]
+    "Diet": ["Vegetarian"],
+    "Duration": ["Over 1 hour"],
+    "Nutrition": ["High Calcium"]
   }
 }

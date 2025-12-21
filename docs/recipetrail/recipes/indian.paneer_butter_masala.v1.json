@@ -4,66 +4,163 @@
   "categories": ["Main Course"],
   "source": "server",
   "version": 1,
-
   "recipe_name": "Paneer Butter Masala",
-  "image": "https://images.unsplash.com/photo-1626074353765-517a681e40be?w=400&h=300&fit=crop",
-  "description": "Rich and creamy tomato-based curry with soft paneer cubes and aromatic spices.",
-  "calories_per_serving": 460,
+  "image": "https://images.unsplash.com/photo-1631515242808-497c3fbd3972?w=400&h=300&fit=crop",
+  "description": "A rich and creamy North Indian curry made with soft paneer cubes simmered in a tomato-butter gravy, delicately spiced and finished with cream for a smooth, mildly sweet flavor.",
+  "calories_per_serving": 420,
   "servings_variable": "n",
-
   "ingredients": [
-    { "ingredient_description": "Paneer", "quantity_per_serving": 120, "unit": "grams", "allergen": "Dairy" },
-    { "ingredient_description": "Tomato puree", "quantity_per_serving": 150, "unit": "grams" },
-    { "ingredient_description": "Butter", "quantity_per_serving": 15, "unit": "grams", "allergen": "Dairy" },
-    { "ingredient_description": "Cream", "quantity_per_serving": 30, "unit": "ml", "allergen": "Dairy" }
+    {
+      "ingredient_description": "Paneer, cubed",
+      "quantity_per_serving": 120,
+      "unit": "grams",
+      "allergen": "Dairy"
+    },
+    {
+      "ingredient_description": "Butter",
+      "quantity_per_serving": 20,
+      "unit": "grams",
+      "allergen": "Dairy"
+    },
+    {
+      "ingredient_description": "Tomato Puree",
+      "quantity_per_serving": 120,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Cream",
+      "quantity_per_serving": 25,
+      "unit": "ml",
+      "allergen": "Dairy"
+    },
+    {
+      "ingredient_description": "Onions, finely chopped",
+      "quantity_per_serving": 60,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Ginger-Garlic Paste",
+      "quantity_per_serving": 10,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Red Chili Powder",
+      "quantity_per_serving": 2,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Garam Masala",
+      "quantity_per_serving": 2,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Sugar",
+      "quantity_per_serving": 4,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Salt",
+      "quantity_per_serving": 3,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Water",
+      "quantity_per_serving": 80,
+      "unit": "ml"
+    }
   ],
-
   "preparation": {
     "prep_time_minutes": 15,
     "steps": [
-      { "step": "Cut paneer into cubes and prepare tomato puree." }
+      {
+        "step": "Cut paneer into even bite-sized cubes and keep aside."
+      },
+      {
+        "step": "Finely chop onions and prepare {{ginger_garlic}} paste.",
+        "variables": {
+          "ginger_garlic": { "quantity_per_serving": 10, "unit": "grams" }
+        }
+      },
+      {
+        "step": "Blend tomatoes into a smooth puree if not already prepared."
+      }
     ]
   },
-
   "cooking": {
     "cook_time_minutes": 20,
     "steps": [
       {
-        "step": "Simmer tomato puree with butter, add paneer and finish with {{cream}}.",
+        "step": "Heat {{butter}} in a pan over medium heat.",
         "variables": {
-          "cream": { "quantity_per_serving": 30, "unit": "ml" }
+          "butter": { "quantity_per_serving": 20, "unit": "grams" }
         }
+      },
+      {
+        "step": "Add onions and sauté for 4–5 minutes until lightly golden."
+      },
+      {
+        "step": "Stir in ginger-garlic paste and cook for 1 minute until aromatic."
+      },
+      {
+        "step": "Add tomato puree, red chili powder, and salt. Cook for 6–8 minutes until butter begins to separate."
+      },
+      {
+        "step": "Add {{water}} and simmer for 2–3 minutes to adjust gravy consistency.",
+        "variables": {
+          "water": { "quantity_per_serving": 80, "unit": "ml" }
+        }
+      },
+      {
+        "step": "Add paneer cubes, sugar, and garam masala. Gently mix and cook for 2 minutes."
+      },
+      {
+        "step": "Lower heat and stir in cream. Simmer for another 2 minutes and switch off heat."
       }
     ]
   },
-
   "nutrition": {
     "macronutrients_per_serving": {
-      "carbohydrates": { "amount": 18, "unit": "g", "percent": 16 },
-      "protein": { "amount": 20, "unit": "g", "percent": 18 },
-      "fat": { "amount": 34, "unit": "g", "percent": 66 }
+      "carbohydrates": { "amount": 22, "unit": "g", "percent": 21 },
+      "protein": { "amount": 18, "unit": "g", "percent": 17 },
+      "fat": { "amount": 30, "unit": "g", "percent": 62 }
     },
     "caloric_sources_per_serving": {
-      "carbs_kcal": 72,
-      "protein_kcal": 80,
-      "fat_kcal": 306,
-      "total_kcal": 458
+      "carbs_kcal": 88,
+      "protein_kcal": 72,
+      "fat_kcal": 270,
+      "total_kcal": 430
     },
     "micronutrients_per_serving": {
-      "calcium": { "amount": 220, "unit": "mg", "percent_dv": 17 }
+      "sodium": { "amount": 620, "unit": "mg", "percent_dv": 27 },
+      "fiber": { "amount": 3, "unit": "g", "percent_dv": 11 },
+      "calcium": { "amount": 260, "unit": "mg", "percent_dv": 20 },
+      "iron": { "amount": 1.8, "unit": "mg", "percent_dv": 10 },
+      "vitamin_a": { "amount": 310, "unit": "mcg", "percent_dv": 34 },
+      "vitamin_c": { "amount": 14, "unit": "mg", "percent_dv": 16 }
     },
     "quick_stats_per_serving": {
-      "calories": 460,
-      "sugar": { "amount": 8, "unit": "g" },
-      "saturated_fat": { "amount": 18, "unit": "g" },
+      "calories": 420,
+      "sugar": { "amount": 7, "unit": "g" },
+      "saturated_fat": { "amount": 16, "unit": "g" },
       "cholesterol": { "amount": 65, "unit": "mg" },
-      "serving_size": "1 serving"
+      "serving_size": "1 bowl"
     }
   },
-
   "filters": {
-    "ingredient names": ["paneer", "tomato", "butter", "cream"],
-    "Meal Type": ["Dinner"],
+    "ingredient names": [
+      "Paneer/Cottage Cheese",
+      "Butter",
+      "Tomato Puree",
+      "Cream",
+      "Onions",
+      "Ginger-Garlic Paste",
+      "Red Chili Powder",
+      "Garam Masala",
+      "Sugar",
+      "Salt",
+      "Water"
+    ],
+    "Meal Type": ["Lunch", "Dinner"],
     "Avoid Allergens": ["Dairy"],
     "Diet": ["Vegetarian"],
     "Duration": ["30-60 min"],
