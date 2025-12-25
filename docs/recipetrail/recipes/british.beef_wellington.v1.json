@@ -1,0 +1,163 @@
+{
+  "id": "british.beef_wellington.v1",
+  "primaryCuisine": "British",
+  "categories": ["Main Course", "Editor Pick"],
+  "source": "server",
+  "version": 1,
+  "recipe_name": "Beef Wellington",
+  "image": "https://images.unsplash.com/photo-1604908177522-040b6f2f1c6e?w=400&h=300&fit=crop",
+  "description": "A classic British showstopper featuring seared beef wrapped in a mushroom duxelles, cured pork, and golden pastry, baked until crisp outside and tender within.",
+  "calories_per_serving": 640,
+  "servings_variable": "n",
+  "ingredients": [
+    {
+      "ingredient_description": "Beef tenderloin (center-cut)",
+      "quantity_per_serving": 180,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Mushrooms, finely chopped",
+      "quantity_per_serving": 120,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Cured Pork (prosciutto)",
+      "quantity_per_serving": 40,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Puff pastry",
+      "quantity_per_serving": 90,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Mustard",
+      "quantity_per_serving": 8,
+      "unit": "grams",
+      "allergen": "Mustard"
+    },
+    {
+      "ingredient_description": "Butter",
+      "quantity_per_serving": 15,
+      "unit": "grams",
+      "allergen": "Dairy"
+    },
+    {
+      "ingredient_description": "Olive Oil",
+      "quantity_per_serving": 10,
+      "unit": "ml"
+    },
+    {
+      "ingredient_description": "Garlic",
+      "quantity_per_serving": 4,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Thyme",
+      "quantity_per_serving": 1,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Eggs",
+      "quantity_per_serving": 0.5,
+      "unit": "count",
+      "allergen": "Egg"
+    },
+    {
+      "ingredient_description": "Salt",
+      "quantity_per_serving": 2,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Black Pepper",
+      "quantity_per_serving": 1,
+      "unit": "grams"
+    }
+  ],
+  "preparation": {
+    "prep_time_minutes": 35,
+    "steps": [
+      {
+        "step": "Season the beef generously with salt and black pepper."
+      },
+      {
+        "step": "Finely chop the mushrooms and garlic; strip thyme leaves."
+      },
+      {
+        "step": "Prepare an egg wash by beating {{eggs}} lightly.",
+        "variables": {
+          "eggs": { "quantity_per_serving": 0.5, "unit": "count" }
+        }
+      }
+    ]
+  },
+  "cooking": {
+    "cook_time_minutes": 45,
+    "steps": [
+      {
+        "step": "Heat olive oil in a hot pan and quickly sear the beef on all sides until browned. Remove and brush with mustard while warm."
+      },
+      {
+        "step": "In the same pan, melt butter and sauté mushrooms, garlic, and thyme until all moisture evaporates and a thick duxelles forms."
+      },
+      {
+        "step": "Lay cured pork slices flat, spread the duxelles evenly on top, and place the beef in the center. Roll tightly and chill for 15 minutes."
+      },
+      {
+        "step": "Roll out the puff pastry, unwrap the beef roll, place it on the pastry, and wrap tightly. Seal edges with egg wash."
+      },
+      {
+        "step": "Brush the outside with egg wash, score lightly, and bake at 200°C for 30–35 minutes until golden and cooked to desired doneness."
+      },
+      {
+        "step": "Rest for 10 minutes before slicing and serving."
+      }
+    ]
+  },
+  "nutrition": {
+    "macronutrients_per_serving": {
+      "carbohydrates": { "amount": 34, "unit": "g", "percent": 22 },
+      "protein": { "amount": 38, "unit": "g", "percent": 24 },
+      "fat": { "amount": 44, "unit": "g", "percent": 54 }
+    },
+    "caloric_sources_per_serving": {
+      "carbs_kcal": 136,
+      "protein_kcal": 152,
+      "fat_kcal": 396,
+      "total_kcal": 684
+    },
+    "micronutrients_per_serving": {
+      "sodium": { "amount": 720, "unit": "mg", "percent_dv": 31 },
+      "fiber": { "amount": 3, "unit": "g", "percent_dv": 11 },
+      "calcium": { "amount": 60, "unit": "mg", "percent_dv": 5 },
+      "iron": { "amount": 4.6, "unit": "mg", "percent_dv": 26 },
+      "vitamin_a": { "amount": 180, "unit": "mcg", "percent_dv": 20 },
+      "vitamin_c": { "amount": 3, "unit": "mg", "percent_dv": 3 }
+    },
+    "quick_stats_per_serving": {
+      "calories": 640,
+      "sugar": { "amount": 3, "unit": "g" },
+      "saturated_fat": { "amount": 18, "unit": "g" },
+      "cholesterol": { "amount": 145, "unit": "mg" },
+      "serving_size": "1 slice"
+    }
+  },
+  "filters": {
+    "ingredient names": [
+      "Beef Sirloin",
+      "Mushrooms",
+      "Cured Pork",
+      "Butter",
+      "Olive Oil",
+      "Garlic",
+      "Thyme",
+      "Eggs",
+      "Mustard"
+    ],
+    "Meal Type": ["Dinner"],
+    "Avoid Allergens": ["Gluten", "Dairy", "Egg", "Mustard"],
+    "Diet": [],
+    "Duration": ["Over 1 hour"],
+    "Nutrition": ["High Protein"]
+  }
+}
