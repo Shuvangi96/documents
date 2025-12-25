@@ -1,0 +1,166 @@
+{
+  "id": "british.gingerbread_cake.v1",
+  "primaryCuisine": "British",
+  "categories": ["Dessert"],
+  "source": "server",
+  "version": 1,
+  "recipe_name": "Gingerbread Cake (Holiday Special)",
+  "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&h=300&fit=crop",
+  "description": "A classic British gingerbread cake that is dark, moist, and warmly spiced, traditionally enjoyed with tea and known for its deep ginger flavor and comforting aroma.",
+  "calories_per_serving": 390,
+  "servings_variable": "n",
+  "ingredients": [
+    {
+      "ingredient_description": "All-Purpose Flour",
+      "quantity_per_serving": 70,
+      "unit": "grams",
+      "allergen": "Gluten"
+    },
+    {
+      "ingredient_description": "Butter",
+      "quantity_per_serving": 35,
+      "unit": "grams",
+      "allergen": "Dairy"
+    },
+    {
+      "ingredient_description": "Sugar",
+      "quantity_per_serving": 45,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Molasses",
+      "quantity_per_serving": 40,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Milk",
+      "quantity_per_serving": 40,
+      "unit": "ml",
+      "allergen": "Dairy"
+    },
+    {
+      "ingredient_description": "Eggs",
+      "quantity_per_serving": 0.5,
+      "unit": "count",
+      "allergen": "Egg"
+    },
+    {
+      "ingredient_description": "Ginger",
+      "quantity_per_serving": 2,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Cinnamon",
+      "quantity_per_serving": 1,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Cloves",
+      "quantity_per_serving": 0.5,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Nutmeg",
+      "quantity_per_serving": 0.5,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Baking Powder",
+      "quantity_per_serving": 3,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Salt",
+      "quantity_per_serving": 1,
+      "unit": "grams"
+    }
+  ],
+  "preparation": {
+    "prep_time_minutes": 20,
+    "steps": [
+      {
+        "step": "Preheat the oven to 180°C and grease a small cake tin."
+      },
+      {
+        "step": "Sift together the flour, baking powder, salt, ginger, cinnamon, cloves, and nutmeg."
+      },
+      {
+        "step": "Beat {{eggs}} lightly in a separate bowl.",
+        "variables": {
+          "eggs": { "quantity_per_serving": 0.5, "unit": "count" }
+        }
+      }
+    ]
+  },
+  "cooking": {
+    "cook_time_minutes": 45,
+    "steps": [
+      {
+        "step": "Melt the butter gently in a saucepan, then stir in sugar and molasses until smooth."
+      },
+      {
+        "step": "Remove from heat and mix in the beaten eggs and milk until fully combined."
+      },
+      {
+        "step": "Gradually fold the dry ingredients into the wet mixture, stirring until a smooth batter forms."
+      },
+      {
+        "step": "Pour the batter into the prepared tin and smooth the surface."
+      },
+      {
+        "step": "Bake for 40–45 minutes, until a skewer inserted in the center comes out clean."
+      },
+      {
+        "step": "Allow the cake to cool for 10 minutes before removing from the tin."
+      }
+    ]
+  },
+  "nutrition": {
+    "macronutrients_per_serving": {
+      "carbohydrates": { "amount": 52, "unit": "g", "percent": 53 },
+      "protein": { "amount": 6, "unit": "g", "percent": 6 },
+      "fat": { "amount": 18, "unit": "g", "percent": 41 }
+    },
+    "caloric_sources_per_serving": {
+      "carbs_kcal": 208,
+      "protein_kcal": 24,
+      "fat_kcal": 162,
+      "total_kcal": 394
+    },
+    "micronutrients_per_serving": {
+      "sodium": { "amount": 320, "unit": "mg", "percent_dv": 14 },
+      "fiber": { "amount": 2, "unit": "g", "percent_dv": 7 },
+      "calcium": { "amount": 85, "unit": "mg", "percent_dv": 7 },
+      "iron": { "amount": 2.2, "unit": "mg", "percent_dv": 12 },
+      "vitamin_a": { "amount": 160, "unit": "mcg", "percent_dv": 18 },
+      "vitamin_c": { "amount": 1, "unit": "mg", "percent_dv": 1 }
+    },
+    "quick_stats_per_serving": {
+      "calories": 390,
+      "sugar": { "amount": 28, "unit": "g" },
+      "saturated_fat": { "amount": 10, "unit": "g" },
+      "cholesterol": { "amount": 95, "unit": "mg" },
+      "serving_size": "1 slice"
+    }
+  },
+  "filters": {
+    "ingredient names": [
+      "All-Purpose Flour",
+      "Butter",
+      "Sugar",
+      "Molasses",
+      "Milk",
+      "Eggs",
+      "Ginger",
+      "Cinnamon",
+      "Cloves",
+      "Nutmeg",
+      "Baking Powder"
+    ],
+    "Meal Type": ["Dessert"],
+    "Avoid Allergens": ["Gluten", "Dairy", "Egg"],
+    "Diet": ["Vegetarian"],
+    "Duration": ["Over 1 hour"],
+    "Nutrition": []
+  }
+}

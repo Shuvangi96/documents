@@ -1,6 +1,6 @@
 {
   "manifest_version": 1,
-  "generated_at": "2025-03-01",
+  "generated_at": "2025-12",
 
   "recipes": [
     {
@@ -52,6 +52,11 @@
       "id": "british.chicken_wellington.v1",
       "path": "recipes/british.chicken_wellington.v1.json",
       "image": "recipes/british.chicken_wellington.jpg"
+    },
+    {
+      "id": "british.gingerbread_cake.v1",
+      "path": "recipes/british.gingerbread_cake.v1.json",
+      "image": "recipes/british.gingerbread_cake.jpg"
     }
   ],
 
@@ -60,6 +65,7 @@
       "month": "2025-03",
       "recipe_ids": [
         "british.chicken_wellington.v1",
+        "british.gingerbread_cake.v1",
         "italian.cacio_e_pepe.v1",
         "chinese.dan_dan_noodles.v1",
         "indian.gulab_jamun.v1"
