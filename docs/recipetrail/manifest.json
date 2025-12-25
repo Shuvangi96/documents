@@ -54,6 +54,7 @@
     "recipes_of_the_month": {
       "month": "2025-03",
       "recipe_ids": [
+        "british.beef_wellington.v1",
         "italian.cacio_e_pepe.v1",
         "chinese.dan_dan_noodles.v1",
         "indian.gulab_jamun.v1"
