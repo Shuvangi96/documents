@@ -42,6 +42,11 @@
       "id": "italian.fettuccine_alfredo.v1",
       "path": "recipes/italian.fettuccine_alfredo.v1.json",
       "image": "recipes/italian.fettuccine_alfredo.jpg"
+    },
+    {
+      "id": "british.beef_wellington.v1",
+      "path": "recipes/british.beef_wellington.v1.json",
+      "image": "recipes/british.beef_wellington.jpg"
     }
   ],
 
