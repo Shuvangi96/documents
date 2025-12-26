@@ -357,6 +357,22 @@
       "local_image": "Ground_Beef.jpg",
       "external_image": null
     },
+    "Ground Goru": {
+      "variations": [
+        {
+          "variation_name": "Ground lamb or beef",
+          "variation_local_image": "Ground_Beef.jpg",
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Ground_Beef.jpg",
+      "external_image": null
+    },
     "Ground Beef": {
       "variations": [
         {
