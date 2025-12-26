@@ -1,0 +1,4323 @@
+{
+  "manifest_version": 1,
+  "generated_at": "2025-12-25T17:37:57.478Z",
+  "default_external_image": "https://images.unsplash.com/vector-1758521639222-d181e81e9f4f?w=100&h=100&fit=crop&crop=center",
+  "ingredientsByName": {
+    "Eggs": {
+      "variations": [
+        {
+          "variation_name": "Egg (for egg wash)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Egg (lightly beaten)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Egg",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Soft-boiled egg (marinated, halved)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Eggs",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Fried egg",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Egg yolks",
+          "variation_local_image": "Egg_Yolk.jpg",
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Egg"
+      ],
+      "common_units": [
+        "pieces",
+        "egg",
+        "large",
+        "piece"
+      ],
+      "local_image": "Eggs.jpg",
+      "external_image": "https://images.unsplash.com/photo-1506976785307-8732e854ad03?w=100&h=100&fit=crop&crop=center"
+    },
+    "Onions": {
+      "variations": [
+        {
+          "variation_name": "Diced onions",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Onion powder",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Onion, chopped",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Yellow onion, finely chopped",
+          "variation_local_image": "Yellow_Onion.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Onions (thinly sliced)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Onion (chopped)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Onion (finely chopped)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "White onion (finely chopped)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Red onion (finely chopped)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Yellow onions (thinly sliced)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Onion (finely sliced)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Onion.jpg",
+      "external_image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=100&h=100&fit=crop&crop=center"
+    },
+    "Sausage": {
+      "variations": [
+        {
+          "variation_name": "Pork or beef sausage (frankfurter)",
+          "variation_local_image": "Sausage.jpg",
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Pork"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Sausage.jpg",
+      "external_image": null
+    },
+    "Pork": {
+      "variations": [
+        {
+          "variation_name": "Pork shoulder (cut into bite-size cubes)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Pork shoulder (thinly sliced)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Shredded cooked pork or chicken (or beans/vegetables for vegetarian version)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Sliced chashu pork (braised pork belly)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Thinly sliced pork belly (optional topping)",
+          "variation_local_image": "Pork_Belly_Thinly_Sliced.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Grilled pork or chicken",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Pork belly, thinly sliced",
+          "variation_local_image": "Pork_Belly_Thinly_Sliced.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Pork belly slices, skinless",
+          "variation_local_image": "Pork_Belly_Thinly_Sliced.jpg",
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Pork.jpg",
+      "external_image": "https://images.unsplash.com/photo-1602470520998-f4a52199a3d6?w=100&h=100&fit=crop&crop=center"
+    },
+    "Cheese": {
+      "variations": [
+        {
+          "variation_name": "Cheddar cheese slice",
+          "variation_local_image": "Cheddar_cheese_slice.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Sharp cheddar cheese (shredded)",
+          "variation_local_image": "Cheddar_Cheese.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Parmesan cheese (grated)",
+          "variation_local_image": "Parmesan_Cheese.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Grated Parmesan cheese",
+          "variation_local_image": "Parmesan_Cheese.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Parmesan cheese",
+          "variation_local_image": "Parmesan_Cheese.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Pecorino Romano cheese, finely grated",
+          "variation_local_image": "Parmesan_Cheese.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Cheddar cheese (grated)",
+          "variation_local_image": "Cheddar_Cheese.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Gruyère cheese (grated)",
+          "variation_local_image": "Gruyere_cheese.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Cream cheese",
+          "variation_local_image": "Mascarpone_Cheese.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Ricotta cheese",
+          "variation_local_image": "Ricotta_Cheese.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Mascarpone cheese",
+          "variation_local_image": "Mascarpone_Cheese.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Fresh mozzarella cheese",
+          "variation_local_image": "Mozzarella.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Mozzarella cheese",
+          "variation_local_image": "Mozzarella.jpg",
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Dairy"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Cheddar_Cheese.jpg",
+      "external_image": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=100&h=100&fit=crop&crop=center"
+    },
+    "Paneer/Cottage Cheese": {
+      "variations": [
+        {
+          "variation_name": "Paneer/Cottage Cheese",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Dairy"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Feta_Cheese.jpg",
+      "external_image": null
+    },
+    "Chicken": {
+      "variations": [
+        {
+          "variation_name": "Boneless skinless chicken breast, diced",
+          "variation_local_image": "Chicken_Breast.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Chicken drumsticks (skin-on)",
+          "variation_local_image": "Drumstick.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Boneless chicken thighs (cut into large chunks)",
+          "variation_local_image": "Chicken_Thigh.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Boneless chicken thighs (skinless, cut into chunks)",
+          "variation_local_image": "Chicken_Thigh.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Chicken (bone-in pieces, such as thighs or drumsticks)",
+          "variation_local_image": "Drumstick.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Shredded cooked chicken (or beans for vegetarian version)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Chicken thigh (boneless, skin-on, cut into bite-size pieces)",
+          "variation_local_image": "Chicken_Thigh.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Chicken legs or thighs (bone-in, skin-on)",
+          "variation_local_image": "Chicken_Thigh.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Chicken breast (skinless, boneless)",
+          "variation_local_image": "Chicken_Breast.jpg",
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Whole_Chicken.jpg",
+      "external_image": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?w=100&h=100&fit=crop&crop=center"
+    },
+    "Ground Lamb": {
+      "variations": [
+        {
+          "variation_name": "Ground lamb or beef",
+          "variation_local_image": "Ground_Beef.jpg",
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Ground_Beef.jpg",
+      "external_image": null
+    },
+    "Ground Beef": {
+      "variations": [
+        {
+          "variation_name": "Ground beef (80% lean)",
+          "variation_local_image": "Ground_Beef.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Ground beef",
+          "variation_local_image": "Ground_Beef.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Ground lamb or beef",
+          "variation_local_image": "Ground_Beef.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Ground beef (or sliced beef)",
+          "variation_local_image": "Ground_Beef.jpg",
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Beef.jpg",
+      "external_image": null
+    },
+    "Spring Onions/Scallions": {
+      "variations": [
+        {
+          "variation_name": "Spring onion, sliced",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Spring onions (chopped)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Spring onions (finely chopped)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Spring onions (sliced into thin strips)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Spring onion (cut into 3 cm pieces)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Scallions (thinly sliced)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Green onion (sliced)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Chives or green onions (chopped)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Spring_Onion.jpg",
+      "external_image": null
+    },
+    "Coriander/Cilantro": {
+      "variations": [
+        {
+          "variation_name": "Fresh coriander leaves (chopped)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Fresh coriander leaves (chopped, for garnish)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Fresh cilantro (chopped, for garnish)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Fresh cilantro (chopped)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Cilantro (chopped, for garnish)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Fresh cilantro leaves",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Fresh coriander leaves",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams",
+        "leaves"
+      ],
+      "local_image": "Cilantro.jpg",
+      "external_image": null
+    },
+    "Cucumber": {
+      "variations": [
+        {
+          "variation_name": "Cucumber (cut into thin strips)",
+          "variation_local_image": "Red_Kidney_Beans.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Cucumber (julienned, optional for rolls)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Cucumber, sliced",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Cucumber, grated and drained",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Cucumber, grated (for tzatziki)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Fresh cucumber slices",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Cucumber.jpg",
+      "external_image": "https://images.unsplash.com/photo-1449300079323-02e209d9d3a6?w=100&h=100&fit=crop&crop=center"
+    },
+    "Tomatoes": {
+      "variations": [
+        {
+          "variation_name": "Tomato slices",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Tomatoes (chopped)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Tomatoes (pureed)",
+          "variation_local_image": "Tomato_Puree.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Tomatoes (roasted)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Tomato (deseeded and chopped)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Tomatoes (peeled and chopped)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Tomato.jpg",
+      "external_image": "https://images.unsplash.com/photo-1546470427-e9e2e0f90764?w=100&h=100&fit=crop&crop=center"
+    },
+    "Ketchup": {
+      "variations": [
+        {
+          "variation_name": "Ketchup",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Tomato ketchup",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Tomato_Ketchup.jpg",
+      "external_image": null
+    },
+    "Tomato Sauce": {
+      "variations": [
+        {
+          "variation_name": "Tomato sauce",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Tomato sauce (San Marzano, crushed)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Tomato_Sauce.jpg",
+      "external_image": null
+    },
+    "Tomato Paste": {
+      "variations": [
+        {
+          "variation_name": "Tomato paste",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Tomato_Paste.jpg",
+      "external_image": null
+    },
+    "Tomato Puree": {
+      "variations": [
+        {
+          "variation_name": "Tomato puree (smooth passata style)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Tomato_Puree.jpg",
+      "external_image": null
+    },
+    "All-Purpose Flour": {
+      "variations": [
+        {
+          "variation_name": "All-purpose flour",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Plain all-purpose flour (for dumpling wrappers)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "All-purpose flour (for dough)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "All-purpose flour (for coating meat)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "All-purpose flour (for dredging)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Gluten"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "All_Purpose_Flour.jpg",
+      "external_image": null
+    },
+    "Garlic": {
+      "variations": [
+        {
+          "variation_name": "Garlic, minced",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Garlic (minced)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Garlic powder",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Garlic.jpg",
+      "external_image": "https://images.unsplash.com/photo-1509309734488-9e9d7b26b908?w=100&h=100&fit=crop&crop=center"
+    },
+    "Bell Peppers": {
+      "variations": [
+        {
+          "variation_name": "Green bell pepper, diced",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Red bell pepper (cut into chunks)",
+          "variation_local_image": "Red_Bell_Pepper.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Green bell pepper (cut into chunks)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Red bell pepper (diced)",
+          "variation_local_image": "Red_Bell_Pepper.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Yellow bell pepper (diced)",
+          "variation_local_image": "Yellow_Bell_Pepper.jpg",
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Capsicum.jpg",
+      "external_image": null
+    },
+    "Ginger": {
+      "variations": [
+        {
+          "variation_name": "Ginger, minced",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Ginger (minced)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Fresh ginger slices (for serving, optional)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Ginger (grated)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Fresh ginger, sliced",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Pickled ginger (gari, for serving)",
+          "variation_local_image": "Pickled_Ginger.jpg",
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Ginger.jpg",
+      "external_image": null
+    },
+    "Shrimp": {
+      "variations": [
+        {
+          "variation_name": "Shellfish",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Shrimp (peeled and deveined) or assorted vegetables (e.g., sweet potato, zucchini, eggplant)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Medium shrimp (peeled, deveined)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Raw shrimp (peeled, deveined)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Cooked shrimp, peeled and halved lengthwise",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Prawns, peeled and deveined",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Shellfish"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Shrimp.jpg",
+      "external_image": null
+    },
+    "Milk": {
+      "variations": [
+        {
+          "variation_name": "Whole milk",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Dairy"
+      ],
+      "common_units": [
+        "ml"
+      ],
+      "local_image": "Milk.jpg",
+      "external_image": "https://images.unsplash.com/photo-1550583724-b2692b85169f?w=100&h=100&fit=crop&crop=center"
+    },
+    "Avocado": {
+      "variations": [
+        {
+          "variation_name": "Ripe avocado (peeled and mashed)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Avocado.jpg",
+      "external_image": null
+    },
+    "Cream": {
+      "variations": [
+        {
+          "variation_name": "Heavy cream",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Dairy"
+      ],
+      "common_units": [
+        "ml"
+      ],
+      "local_image": "Crème_Fraîche.jpg",
+      "external_image": "https://images.unsplash.com/photo-1550583724-b2692b85169f?w=100&h=100&fit=crop&crop=center"
+    },
+    "Lettuce": {
+      "variations": [
+        {
+          "variation_name": "Lettuce leaves",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Lettuce leaves, shredded",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Fresh lettuce leaves",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Lettuce_leaf.jpg",
+      "external_image": "https://images.unsplash.com/photo-1622206151226-18ca2c9ab4a1?w=100&h=100&fit=crop&crop=center"
+    },
+    "Chicken Stock": {
+      "variations": [
+        {
+          "variation_name": "Chicken stock or water",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Chicken broth (or vegetable broth for vegetarian option)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Chicken broth",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Chicken stock",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "ml"
+      ],
+      "local_image": "Chicken_Stock.jpg",
+      "external_image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=100&h=100&fit=crop&crop=center"
+    },
+    "Beef Stock": {
+      "variations": [
+        {
+          "variation_name": "Beef broth",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Beef stock",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Beef broth (homemade or store-bought)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "ml"
+      ],
+      "local_image": "Chicken_Stock.jpg",
+      "external_image": null
+    },
+    "Water": {
+      "variations": [
+        {
+          "variation_name": "Ice water",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Water (for dough)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Water (for cooking rice)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Water (for cooking lentils)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Cold sparkling water (ice cold)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": false,
+      "primary_allergens": [],
+      "common_units": [
+        "ml"
+      ],
+      "local_image": "Water.jpg",
+      "external_image": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=100&h=100&fit=crop&crop=center"
+    },
+    "Black Pepper": {
+      "variations": [
+        {
+          "variation_name": "Black pepper (ground)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Black pepper",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "White pepper",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Black pepper, freshly ground",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": false,
+      "primary_allergens": [],
+      "common_units": [
+        "grams",
+        "teaspoon"
+      ],
+      "local_image": "Black_Pepper.jpg",
+      "external_image": "https://images.unsplash.com/photo-1599908451282-6ade8b6e7ed2?w=100&h=100&fit=crop&crop=center"
+    },
+    "Dried Mexican Chilies": {
+      "variations": [
+        {
+          "variation_name": "Dried pasilla chilies (stemmed and seeded)",
+          "variation_local_image": "Pasilla_chili.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Dried mulato chilies (stemmed and seeded)",
+          "variation_local_image": "Mulato_Chilli.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Dried ancho chilies (stemmed and seeded)",
+          "variation_local_image": "Ancho_Chilli.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Guajillo chili (rehydrated and pureed)",
+          "variation_local_image": "Guajillo_Chili.jpg",
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Chilli.jpg",
+      "external_image": null
+    },
+    "Soy Sauce": {
+      "variations": [
+        {
+          "variation_name": "Soy sauce",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Soy sauce (light)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Dark soy sauce",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Soy sauce (for dipping)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Soy"
+      ],
+      "common_units": [
+        "ml"
+      ],
+      "local_image": "Soya_Sauce.jpg",
+      "external_image": null
+    },
+    "Vegetable Oil": {
+      "variations": [
+        {
+          "variation_name": "Vegetable oil",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Vegetable oil (for frying)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Vegetable oil (for deep frying)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Vegetable oil (for dough and frying)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": false,
+      "primary_allergens": [],
+      "common_units": [
+        "ml"
+      ],
+      "local_image": "Vegetable_oil.jpg",
+      "external_image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=100&h=100&fit=crop&crop=center"
+    },
+    "Butter": {
+      "variations": [
+        {
+          "variation_name": "Unsalted butter",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Butter (for toasting buns)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Butter (unsalted)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Dairy"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Butter.jpg",
+      "external_image": "https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?w=100&h=100&fit=crop&crop=center"
+    },
+    "Carrots": {
+      "variations": [
+        {
+          "variation_name": "Carrots (sliced)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Carrot (sliced)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Carrots, julienned",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Carrot.jpg",
+      "external_image": "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?w=100&h=100&fit=crop&crop=center"
+    },
+    "Cornstarch": {
+      "variations": [
+        {
+          "variation_name": "Cornstarch",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Cornstarch (for coating)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Cornstarch slurry (equal parts cornstarch and water)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams",
+        "ml"
+      ],
+      "local_image": "Cornstarch.jpg",
+      "external_image": null
+    },
+    "Cured Pork": {
+      "variations": [
+        {
+          "variation_name": "Guanciale (cured pork cheek)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Smoked bacon lardons",
+          "variation_local_image": "Bacon_Lardons.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Bacon lardons or pancetta (diced)",
+          "variation_local_image": "Bacon_Lardons.jpg",
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Pork"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Pork.jpg",
+      "external_image": null
+    },
+    "Bacon": {
+      "variations": [],
+      "visible": true,
+      "primary_allergens": [
+        "Pork"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Bacon_Lardons.jpg",
+      "external_image": null
+    },
+    "Oregano": {
+      "variations": [
+        {
+          "variation_name": "Dried oregano",
+          "variation_local_image": "Mixed_Herbs.jpg",
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams",
+        "leaves"
+      ],
+      "local_image": "Mixed_Herbs.jpg",
+      "external_image": "https://images.unsplash.com/photo-1618164435735-413d3b066c9a?w=100&h=100&fit=crop&crop=center"
+    },
+    "Dill": {
+      "variations": [
+        {
+          "variation_name": "Fresh dill, finely chopped",
+          "variation_local_image": "Fresh_Dill.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Fresh dill, chopped",
+          "variation_local_image": "Fresh_Dill.jpg",
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Fresh_Dill.jpg",
+      "external_image": null
+    },
+    "Bamboo Shoots": {
+      "variations": [
+        {
+          "variation_name": "Bamboo shoots, sliced",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Bamboo_Shoots.jpg",
+      "external_image": null
+    },
+    "Thai Eggplant": {
+      "variations": [
+        {
+          "variation_name": "Thai eggplant, quartered",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Thai_Eggplant.jpg",
+      "external_image": null
+    },
+    "Green Papaya": {
+      "variations": [
+        {
+          "variation_name": "Green papaya (peeled, shredded)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Green_papaya.jpg",
+      "external_image": null
+    },
+    "Green Beans": {
+      "variations": [
+        {
+          "variation_name": "Fresh green beans (cut into 4cm pieces)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Green_Beans.jpg",
+      "external_image": null
+    },
+    "Bean Sprouts": {
+      "variations": [
+        {
+          "variation_name": "Bean sprouts",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Bean sprouts, rinsed",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Bean sprouts, blanched",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Bean_Sprouts.jpg",
+      "external_image": null
+    },
+    "Lime": {
+      "variations": [
+        {
+          "variation_name": "Lime juice (freshly squeezed)",
+          "variation_local_image": "Red_Kidney_Beans.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Lime wedges (for serving, optional)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Lime wedges (for serving)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Fresh lime juice",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Lime juice",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Lime wedges",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "ml",
+        "optional",
+        "wedge"
+      ],
+      "local_image": "Lime.jpg",
+      "external_image": null
+    },
+    "Lemongrass": {
+      "variations": [
+        {
+          "variation_name": "Lemongrass stalk (cut into 5cm pieces, bruised)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams",
+        "leaves"
+      ],
+      "local_image": "Lemongrass.jpg",
+      "external_image": null
+    },
+    "Kaffir Lime Leaves": {
+      "variations": [
+        {
+          "variation_name": "Kaffir lime leaves (torn)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Kaffir lime leaves, torn",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams",
+        "leaves"
+      ],
+      "local_image": "Lime.jpg",
+      "external_image": null
+    },
+    "Galangal": {
+      "variations": [
+        {
+          "variation_name": "Galangal (sliced)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams",
+        "leaves"
+      ],
+      "local_image": "Galangal.jpg",
+      "external_image": null
+    },
+    "Ground Pork": {
+      "variations": [
+        {
+          "variation_name": "Ground pork",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Ground pork (ideally 20% fat)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Ground pork (20% fat)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Ground_pork.jpg",
+      "external_image": null
+    },
+    "Dashi stock": {
+      "variations": [
+        {
+          "variation_name": "Dashi stock (or water)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Fish"
+      ],
+      "common_units": [
+        "ml"
+      ],
+      "local_image": "Chicken_Stock.jpg",
+      "external_image": null
+    },
+    "Wasabi Paste": {
+      "variations": [
+        {
+          "variation_name": "Wasabi paste",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Wasabi_paste.jpg",
+      "external_image": null
+    },
+    "Mayonnaise": {
+      "variations": [
+        {
+          "variation_name": "Japanese mayonnaise",
+          "variation_local_image": "Japanese_Mayo.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Mayonnaise",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Egg"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Mayonnise.jpg",
+      "external_image": null
+    },
+    "Japanese Cooking Wine": {
+      "variations": [
+        {
+          "variation_name": "Mirin (Japanese sweet rice wine)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Mirin",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Sake",
+          "variation_local_image": "Sake.jpg",
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Sulfites"
+      ],
+      "common_units": [
+        "ml"
+      ],
+      "local_image": "Mirin.jpg",
+      "external_image": null
+    },
+    "Napa Cabbage": {
+      "variations": [
+        {
+          "variation_name": "Napa cabbage",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Napa_Cabbage.jpg",
+      "external_image": null
+    },
+    "Mint": {
+      "variations": [
+        {
+          "variation_name": "Fresh mint leaves (chopped)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Fresh mint leaves (finely chopped)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Fresh mint leaves",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams",
+        "leaves"
+      ],
+      "local_image": "Fresh_mint.jpg",
+      "external_image": null
+    },
+    "Nori/Seaweed": {
+      "variations": [
+        {
+          "variation_name": "Nori sheets (seaweed, for rolls)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Nori sheet (toasted seaweed)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Aonori seaweed flakes",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "sheet",
+        "grams"
+      ],
+      "local_image": "Nori_Sheets.jpg",
+      "external_image": null
+    },
+    "Peanuts": {
+      "variations": [
+        {
+          "variation_name": "Roasted peanuts (unsalted)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Roasted peanuts (crushed)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Roasted peanuts",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Peanuts"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Peanut.jpg",
+      "external_image": null
+    },
+    "Sugar": {
+      "variations": [
+        {
+          "variation_name": "Sugar",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Granulated sugar",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Brown sugar",
+          "variation_local_image": "Brown_Sugar.jpg",
+          "variation_external_image": null
+        }
+      ],
+      "visible": false,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Sugar.jpg",
+      "external_image": null
+    },
+    "Molasses": {
+      "variations": [
+        {
+          "variation_name": "Molasses",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": false,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Soya_Sauce.jpg",
+      "external_image": null
+    },
+    "Chili Flakes": {
+      "variations": [
+        {
+          "variation_name": "Chili flakes",
+          "variation_local_image": "Chilli_Flakes.jpg",
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Soy"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Chilli_Flakes.jpg",
+      "external_image": null
+    },
+    "Thai Chilies": {
+      "variations": [
+        {
+          "variation_name": "Thai bird's eye chili (crushed)",
+          "variation_local_image": "Thai_birds_eye_chilli.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Thai bird's eye chilies (adjust to taste)",
+          "variation_local_image": "Thai_birds_eye_chilli.jpg",
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "pieces",
+        "grams"
+      ],
+      "local_image": "Thai_Chilli_Paste.jpg",
+      "external_image": null
+    },
+    "Thai Curry Pastes": {
+      "variations": [
+        {
+          "variation_name": "Thai green curry paste",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Thai chili paste (Nam Prik Pao)",
+          "variation_local_image": "Thai_Chilli_Paste.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Khao Soi curry paste",
+          "variation_local_image": "khao_soi_paste.jpg",
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Fish",
+        "Soy"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Thai_Green_Curry_Paste.jpg",
+      "external_image": null
+    },
+    "Rice Noodles": {
+      "variations": [
+        {
+          "variation_name": "Flat rice noodles",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Flat rice noodles (soaked)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Flat_Rice_Noodles.jpg",
+      "external_image": null
+    },
+    "Rice Vermicili Noodles": {
+      "variations": [
+        {
+          "variation_name": "Rice vermicelli noodles (cooked)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Rice vermicelli noodles, cooked and cooled",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Rice_vermicili_noodles.jpg",
+      "external_image": null
+    },
+    "Yogurt": {
+      "variations": [
+        {
+          "variation_name": "Plain yogurt",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Strained Greek yogurt (full-fat)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Greek yogurt (for marinade and tzatziki)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Dairy"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Yogurt.jpg",
+      "external_image": "https://images.unsplash.com/photo-1571212515416-fdc6d4d95b18?w=100&h=100&fit=crop&crop=center"
+    },
+    "Basmati Rice": {
+      "variations": [
+        {
+          "variation_name": "Basmati rice (long-grain, aged preferred)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Cooked basmati rice (for serving, optional)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams",
+        "optional"
+      ],
+      "local_image": "Cooked_Rice.jpg",
+      "external_image": null
+    },
+    "Chickpeas": {
+      "variations": [
+        {
+          "variation_name": "Cooked chickpeas (garbanzo beans)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Dried chickpeas (soaked overnight)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Chickpea.jpg",
+      "external_image": null
+    },
+    "Chinese Cooking Wine": {
+      "variations": [
+        {
+          "variation_name": "Shaoxing wine (Chinese cooking wine)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Shaoxing wine",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "ml"
+      ],
+      "local_image": "Dry_White_Wine.jpg",
+      "external_image": null
+    },
+    "Cinnamon": {
+      "variations": [
+        {
+          "variation_name": "Ground cinnamon",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Cinnamon stick",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Cinnamon.jpg",
+      "external_image": null
+    },
+    "Coriander": {
+      "variations": [
+        {
+          "variation_name": "Ground coriander",
+          "variation_local_image": "Coriander_Powder.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Coriander powder",
+          "variation_local_image": "Coriander_Powder.jpg",
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Coriander.jpg",
+      "external_image": null
+    },
+    "Cumin": {
+      "variations": [
+        {
+          "variation_name": "Cumin seeds",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Ground cumin",
+          "variation_local_image": "Cumin_Powder.jpg",
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Cumin.jpg",
+      "external_image": null
+    },
+    "Feta Cheese": {
+      "variations": [
+        {
+          "variation_name": "Feta cheese, cubed",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Feta cheese, crumbled",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Dairy"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Feta_Cheese.jpg",
+      "external_image": null
+    },
+    "Garam Masala": {
+      "variations": [
+        {
+          "variation_name": "Garam masala (Indian spice blend)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Garam masala (spice blend)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Garam_Masala.jpg",
+      "external_image": null
+    },
+    "Ghee": {
+      "variations": [
+        {
+          "variation_name": "Ghee (clarified butter) or vegetable oil",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Ghee (clarified butter, optional for crispiness)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Dairy"
+      ],
+      "common_units": [
+        "ml"
+      ],
+      "local_image": "Ghee.jpg",
+      "external_image": null
+    },
+    "Khoya/Milk Solids": {
+      "variations": [
+        {
+          "variation_name": "Khoya (milk solids), finely grated",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Dairy"
+      ],
+      "common_units": [
+        "ml"
+      ],
+      "local_image": "Grated_parmesan_cheese.jpg",
+      "external_image": null
+    },
+    "Green Chili": {
+      "variations": [
+        {
+          "variation_name": "Green chili (finely chopped)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Green chili (optional, finely minced)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Green_Chilli.jpg",
+      "external_image": null
+    },
+    "Hoisin Sauce": {
+      "variations": [
+        {
+          "variation_name": "Hoisin sauce",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Hoisin sauce (optional garnish)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Soy"
+      ],
+      "common_units": [
+        "ml",
+        "grams"
+      ],
+      "local_image": "Hoisin_Sauce.jpg",
+      "external_image": null
+    },
+    "Okonomiyaki sauce": {
+      "variations": [
+        {
+          "variation_name": "Okonomiyaki sauce",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Soy"
+      ],
+      "common_units": [
+        "grams",
+        "ml"
+      ],
+      "local_image": "Okonomiyaki_Sauce.jpg",
+      "external_image": null
+    },
+    "Tentsuyu Sauce": {
+      "variations": [
+        {
+          "variation_name": "Tentsuyu dipping sauce (soy sauce-based)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Soy"
+      ],
+      "common_units": [
+        "grams",
+        "ml"
+      ],
+      "local_image": "Tentsuyu_dipping_sauce.jpg",
+      "external_image": null
+    },
+    "Gochujang": {
+      "variations": [
+        {
+          "variation_name": "Gochujang (Korean chili paste)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Soy"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Gochujang.jpg",
+      "external_image": null
+    },
+    "Gochugaru": {
+      "variations": [
+        {
+          "variation_name": "Korean coarse chili flakes (gochugaru)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Gochugaru.jpg",
+      "external_image": null
+    },
+    "Lemon": {
+      "variations": [
+        {
+          "variation_name": "Lemon juice",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Lemon juice, freshly squeezed",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "ml"
+      ],
+      "local_image": "Lime.jpg",
+      "external_image": null
+    },
+    "Mustard": {
+      "variations": [
+        {
+          "variation_name": "Mustard",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Yellow mustard",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Mustard seeds",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Pickled mustard greens (chopped)",
+          "variation_local_image": "Pickled_Mustard_Green.jpg",
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Mustard"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Mustard_Seeds.jpg",
+      "external_image": null
+    },
+    "Nutmeg": {
+      "variations": [
+        {
+          "variation_name": "Ground nutmeg",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Nutmeg (freshly grated)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Nutmeg.jpg",
+      "external_image": null
+    },
+    "Olive Oil": {
+      "variations": [
+        {
+          "variation_name": "Olive oil",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Extra-virgin olive oil",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "ml"
+      ],
+      "local_image": "Olive_Oil.jpg",
+      "external_image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=100&h=100&fit=crop&crop=center"
+    },
+    "Parsley": {
+      "variations": [
+        {
+          "variation_name": "Fresh parsley leaves",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Fresh flat-leaf parsley (finely chopped)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Parsley.jpg",
+      "external_image": "https://images.unsplash.com/photo-1618164435735-413d3b066c9a?w=100&h=100&fit=crop&crop=center"
+    },
+    "Pineapple": {
+      "variations": [
+        {
+          "variation_name": "Pineapple chunks (drained if canned)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Pineapple slices (grilled or fresh, chopped)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "pineapple.jpg",
+      "external_image": null
+    },
+    "Potatoes": {
+      "variations": [
+        {
+          "variation_name": "Potatoes (boiled and mashed)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Potatoes (boiled, peeled, and mashed)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Potato.jpg",
+      "external_image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=100&h=100&fit=crop&crop=center"
+    },
+    "Red Wine": {
+      "variations": [
+        {
+          "variation_name": "Red wine (Burgundy recommended)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Red wine (Burgundy style recommended)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Sulfites"
+      ],
+      "common_units": [
+        "ml"
+      ],
+      "local_image": "Red_Wine.jpg",
+      "external_image": null
+    },
+    "Rice Vinegar": {
+      "variations": [
+        {
+          "variation_name": "Rice vinegar",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Rice vinegar (seasoned)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "ml"
+      ],
+      "local_image": "Rice_Vinegar.jpg",
+      "external_image": null
+    },
+    "Saffron": {
+      "variations": [
+        {
+          "variation_name": "Saffron threads",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Saffron strands (soaked in warm milk)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Saffron.jpg",
+      "external_image": null
+    },
+    "Sesame Seeds": {
+      "variations": [
+        {
+          "variation_name": "Sesame seeds (toasted, for garnish)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Sesame seeds (toasted)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Roasted sesame seeds",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "White sesame seeds",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Sesame"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Sesame_Seeds.jpg",
+      "external_image": null
+    },
+    "Shallots": {
+      "variations": [
+        {
+          "variation_name": "Shallots (sliced)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Shallots (minced)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Shallots.jpg",
+      "external_image": null
+    },
+    "Sichuan Peppercorns": {
+      "variations": [
+        {
+          "variation_name": "Sichuan peppercorns",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Sichuan peppercorns (lightly toasted and ground)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Sichuan_Peppercorns.jpg",
+      "external_image": null
+    },
+    "Spinach": {
+      "variations": [
+        {
+          "variation_name": "Fresh spinach, washed and chopped",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Spinach, blanched",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Fresh_Spinach.jpg",
+      "external_image": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?w=100&h=100&fit=crop&crop=center"
+    },
+    "Tofu": {
+      "variations": [
+        {
+          "variation_name": "Soft or medium tofu (cubed)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Firm tofu (cubed)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Soy"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Tofu.jpg",
+      "external_image": "https://images.unsplash.com/photo-1588347818481-c20145dd9eff?w=100&h=100&fit=crop&crop=center"
+    },
+    "Tortillas": {
+      "variations": [
+        {
+          "variation_name": "Corn tortillas",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Tortilla (stale or toasted, crumbled)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Gluten"
+      ],
+      "common_units": [
+        "pieces",
+        "grams"
+      ],
+      "local_image": "Corn_Tortillas.jpg",
+      "external_image": null
+    },
+    "Fresh Herbs": {
+      "variations": [
+        {
+          "variation_name": "Fresh herbs (mint, basil, coriander)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Fresh_Herbs.jpg",
+      "external_image": null
+    },
+    "Fish Sauce": {
+      "variations": [
+        {
+          "variation_name": "Fish sauce (for dipping)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Fish"
+      ],
+      "common_units": [
+        "ml",
+        "grams"
+      ],
+      "local_image": "Fish_Sauce.jpg",
+      "external_image": null
+    },
+    "Siracha/Chili Sauce": {
+      "variations": [
+        {
+          "variation_name": "Sriracha or chili sauce (optional garnish)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Fish"
+      ],
+      "common_units": [
+        "ml",
+        "grams"
+      ],
+      "local_image": "Siracha_Sauce.jpg",
+      "external_image": null
+    },
+    "Zucchini": {
+      "variations": [
+        {
+          "variation_name": "Zucchini (sliced into rounds)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Zucchini, julienned",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Zucchini.jpg",
+      "external_image": "https://images.unsplash.com/photo-1597362925123-77861d3fbac7?w=100&h=100&fit=crop&crop=center"
+    },
+    "Achiote Paste": {
+      "variations": [
+        {
+          "variation_name": "Achiote paste",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Achiote.jpg",
+      "external_image": null
+    },
+    "Almonds": {
+      "variations": [
+        {
+          "variation_name": "Almonds (toasted)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Tree Nuts"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Almonds.jpg",
+      "external_image": null
+    },
+    "Apples": {
+      "variations": [
+        {
+          "variation_name": "Apples (Granny Smith, peeled and sliced)",
+          "variation_local_image": "Granny_Smith_Apple.jpg",
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Granny_Smith_Apple.jpg",
+      "external_image": null
+    },
+    "Arborio Rice": {
+      "variations": [
+        {
+          "variation_name": "Arborio rice",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Gluten"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Arborio_Rice.jpg",
+      "external_image": null
+    },
+    "Pork Broth": {
+      "variations": [
+        {
+          "variation_name": "Pork broth",
+          "variation_local_image": "Chicken_Stock.jpg",
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Pork"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Chicken_Stock.jpg",
+      "external_image": null
+    },
+    "Gelatin": {
+      "variations": [
+        {
+          "variation_name": "Gelatin, powdered",
+          "variation_local_image": "Baking_Powder.jpg",
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Aspic.jpg",
+      "external_image": null
+    },
+    "Aspic": {
+      "variations": [
+        {
+          "variation_name": "Aspic (gelatinized pork broth, diced)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Pork"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Aspic.jpg",
+      "external_image": null
+    },
+    "Baking Powder": {
+      "variations": [
+        {
+          "variation_name": "Baking powder",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Baking_Powder.jpg",
+      "external_image": null
+    },
+    "Fresh Basil": {
+      "variations": [
+        {
+          "variation_name": "Fresh basil leaves",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Fresh Thai basil",
+          "variation_local_image": "Thai_Basil.jpg",
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Fresh Thai basil leaves",
+          "variation_local_image": "Thai_Basil.jpg",
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "leaves",
+        "grams"
+      ],
+      "local_image": "Basil.jpg",
+      "external_image": null
+    },
+    "Bay Leaf": {
+      "variations": [
+        {
+          "variation_name": "Bay leaf",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "leaf"
+      ],
+      "local_image": "Bay_Leaf.jpg",
+      "external_image": null
+    },
+    "Béchamel Sauce": {
+      "variations": [
+        {
+          "variation_name": "Béchamel sauce (prepared)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Dairy"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Bechamel_sauce.jpg",
+      "external_image": null
+    },
+    "Beef Chuck": {
+      "variations": [
+        {
+          "variation_name": "Beef chuck (cut into large cubes)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Beef.jpg",
+      "external_image": null
+    },
+    "Beef Ribeye": {
+      "variations": [
+        {
+          "variation_name": "Thinly sliced beef ribeye",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Beef_Steak.jpg",
+      "external_image": null
+    },
+    "Beef Sirloin": {
+      "variations": [
+        {
+          "variation_name": "Beef sirloin, thinly sliced",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Beef_Steak.jpg",
+      "external_image": null
+    },
+    "Beef Tenderloin": {
+      "variations": [
+        {
+          "variation_name": "Beef tenderloin (center-cut)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Beef_Steak.jpg",
+      "external_image": null
+    },
+    "Biryani Masala": {
+      "variations": [
+        {
+          "variation_name": "Biryani masala (spice blend)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Biriyani_Masala.jpg",
+      "external_image": null
+    },
+    "Ladyfinger biscuits": {
+      "variations": [
+        {
+          "variation_name": "Ladyfinger biscuits (Savoiardi)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Gluten"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Ladyfinger_Biscuits.jpg",
+      "external_image": null
+    },
+    "Black Lentils": {
+      "variations": [
+        {
+          "variation_name": "Whole black lentils (sabut urad dal, soaked overnight)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Whole_Black_Lentil.jpg",
+      "external_image": null
+    },
+    "Black Vinegar": {
+      "variations": [
+        {
+          "variation_name": "Black vinegar (for serving, optional)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "optional"
+      ],
+      "local_image": "Soya_Sauce.jpg",
+      "external_image": null
+    },
+    "Bonito Flakes": {
+      "variations": [
+        {
+          "variation_name": "Katsuobushi (bonito flakes)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Fish"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Katsuobushi.jpg",
+      "external_image": null
+    },
+    "Breadcrumbs": {
+      "variations": [
+        {
+          "variation_name": "Breadcrumbs (for topping)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Gluten"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Breadcrumbs.jpg",
+      "external_image": null
+    },
+    "Bulgur Wheat": {
+      "variations": [
+        {
+          "variation_name": "Fine bulgur wheat (soaked)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Gluten"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Fine_Bulgur_Wheat.jpg",
+      "external_image": null
+    },
+    "Burger Buns": {
+      "variations": [
+        {
+          "variation_name": "Burger bun",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Gluten"
+      ],
+      "common_units": [
+        "pieces"
+      ],
+      "local_image": "Burger_Bun.jpg",
+      "external_image": null
+    },
+    "Buttermilk": {
+      "variations": [
+        {
+          "variation_name": "Buttermilk",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Dairy"
+      ],
+      "common_units": [
+        "ml"
+      ],
+      "local_image": "Buttermilk.jpg",
+      "external_image": null
+    },
+    "Cabbage": {
+      "variations": [
+        {
+          "variation_name": "Cabbage (finely shredded)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Cabbage.jpg",
+      "external_image": null
+    },
+    "Chinese Five-Spice": {
+      "variations": [
+        {
+          "variation_name": "Chinese five-spice powder",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Chinese_5_Spice.jpg",
+      "external_image": null
+    },
+    "Cloves": {
+      "variations": [
+        {
+          "variation_name": "Cloves",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Cloves.jpg",
+      "external_image": null
+    },
+    "Cocoa Powder": {
+      "variations": [
+        {
+          "variation_name": "Dark cocoa powder (for dusting)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Dark_Cocoa_Powder.jpg",
+      "external_image": null
+    },
+    "Coconut Milk": {
+      "variations": [
+        {
+          "variation_name": "Coconut milk",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "ml"
+      ],
+      "local_image": "Coconut_Milk.jpg",
+      "external_image": null
+    },
+    "Coffee": {
+      "variations": [
+        {
+          "variation_name": "Espresso coffee",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "ml"
+      ],
+      "local_image": "Espresso_Coffee.jpg",
+      "external_image": null
+    },
+    "Skewers": {
+      "variations": [
+        {
+          "variation_name": "Wooden or bamboo skewers (soaked in water)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "skewer"
+      ],
+      "local_image": "Bamboo_Skewers.jpg",
+      "external_image": null
+    },
+    "Corn Husks": {
+      "variations": [
+        {
+          "variation_name": "Dried corn husks (soaked in warm water)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "pieces"
+      ],
+      "local_image": "Dried_Corn_Husk.jpg",
+      "external_image": null
+    },
+    "Crème Fraîche": {
+      "variations": [
+        {
+          "variation_name": "Crème fraîche",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Dairy"
+      ],
+      "common_units": [
+        "ml"
+      ],
+      "local_image": "Crème_Fraîche.jpg",
+      "external_image": null
+    },
+    "Curry Leaves": {
+      "variations": [
+        {
+          "variation_name": "Curry leaves",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "leaves"
+      ],
+      "local_image": "Curry_Leaves.jpg",
+      "external_image": null
+    },
+    "Daikon Radish": {
+      "variations": [
+        {
+          "variation_name": "Grated daikon radish (optional, for serving)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Daikon_Radish.jpg",
+      "external_image": null
+    },
+    "Dark Chocolate": {
+      "variations": [
+        {
+          "variation_name": "Dark chocolate (minimum 70% cocoa, chopped)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Dark_Chocolate.jpg",
+      "external_image": null
+    },
+    "Dosa Batter": {
+      "variations": [
+        {
+          "variation_name": "Dosa batter (fermented rice and urad dal blend)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Batter.jpg",
+      "external_image": null
+    },
+    "Dried Chilies": {
+      "variations": [
+        {
+          "variation_name": "Dried red chilies, whole",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "pieces"
+      ],
+      "local_image": "Chilli_Powder.jpg",
+      "external_image": null
+    },
+    "Duck": {
+      "variations": [
+        {
+          "variation_name": "Whole duck (cleaned, about 2 kg per duck)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Duck.jpg",
+      "external_image": null
+    },
+    "Eggplant": {
+      "variations": [
+        {
+          "variation_name": "Eggplant (cubed, salted, and drained)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Eggplant.jpg",
+      "external_image": null
+    },
+    "Enchilada Sauce": {
+      "variations": [
+        {
+          "variation_name": "Enchilada sauce (red, homemade or store-bought)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Siracha_Sauce.jpg",
+      "external_image": null
+    },
+    "Doubanjiang": {
+      "variations": [
+        {
+          "variation_name": "Doubanjiang (spicy fermented broad bean paste)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Soy"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Doubanjiang.jpg",
+      "external_image": null
+    },
+    "Filo Pastry": {
+      "variations": [
+        {
+          "variation_name": "Filo pastry sheets",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Gluten"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Filo_Pastry.jpg",
+      "external_image": null
+    },
+    "Puff Pastry": {
+      "variations": [
+        {
+          "variation_name": "Puff pastry",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Gluten"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Filo_Pastry.jpg",
+      "external_image": null
+    },
+    "Flatbread": {
+      "variations": [
+        {
+          "variation_name": "Flatbread or pita bread",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Gluten"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Pita_Bread.jpg",
+      "external_image": null
+    },
+    "Baguette": {
+      "variations": [
+        {
+          "variation_name": "Baguette slices (toasted)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Crispy baguette",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Gluten"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Baguette.jpg",
+      "external_image": null
+    },
+    "Salmon": {
+      "variations": [
+        {
+          "variation_name": "Fresh raw fish (sushi-grade, e.g., salmon or tuna, sliced)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Fish"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "salmon.jpg",
+      "external_image": null
+    },
+    "Ginger-Garlic Paste": {
+      "variations": [
+        {
+          "variation_name": "Ginger-garlic paste",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Ginger_Garlic_Paste.jpg",
+      "external_image": null
+    },
+    "Greek Olives": {
+      "variations": [
+        {
+          "variation_name": "Kalamata olives, pitted",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Kalamata_olive.jpg",
+      "external_image": null
+    },
+    "Green Peas": {
+      "variations": [
+        {
+          "variation_name": "Green peas (blanched)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Green_Peas.jpg",
+      "external_image": null
+    },
+    "Honey": {
+      "variations": [
+        {
+          "variation_name": "Honey",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Maltose syrup or honey (for glazing)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Honey.jpg",
+      "external_image": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=100&h=100&fit=crop&crop=center"
+    },
+    "Hot Dog Buns": {
+      "variations": [
+        {
+          "variation_name": "Hot dog buns",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Gluten"
+      ],
+      "common_units": [
+        "pieces"
+      ],
+      "local_image": "Hot_Dog_Bun.jpg",
+      "external_image": null
+    },
+    "Ramen Noodles": {
+      "variations": [
+        {
+          "variation_name": "Fresh ramen noodles",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Gluten"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Ramen_Noodles.jpg",
+      "external_image": null
+    },
+    "Jasmine Rice": {
+      "variations": [
+        {
+          "variation_name": "Jasmine rice, cooked",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Jasmine_Rice.jpg",
+      "external_image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=100&h=100&fit=crop&crop=center"
+    },
+    "Kidney Beans": {
+      "variations": [
+        {
+          "variation_name": "Red kidney beans (rajma, soaked overnight)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Red_Kidney_Beans.jpg",
+      "external_image": null
+    },
+    "Ssamjang": {
+      "variations": [
+        {
+          "variation_name": "Ssamjang (Korean dipping sauce)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Soy"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Ssamjang.jpg",
+      "external_image": null
+    },
+    "Lasagna Noodles": {
+      "variations": [
+        {
+          "variation_name": "Lasagna noodles",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Gluten"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Lasagna_Noodles.jpg",
+      "external_image": null
+    },
+    "Macaroni": {
+      "variations": [
+        {
+          "variation_name": "Elbow macaroni",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Gluten"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Elbow_macaroni_pasta.jpg",
+      "external_image": null
+    },
+    "Fettuccine": {
+      "variations": [
+        {
+          "variation_name": "Fettuccine pasta",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Gluten"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Egg_Noodles.jpg",
+      "external_image": null
+    },
+    "Masa Harina": {
+      "variations": [
+        {
+          "variation_name": "Masa harina (corn flour for tamales)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Masa_Harina.jpg",
+      "external_image": null
+    },
+    "Garlic Yogurt Sauce": {
+      "variations": [
+        {
+          "variation_name": "Garlic yogurt sauce (labneh, garlic, lemon)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Dairy"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Garlic_Yogurt_Sauce.jpg",
+      "external_image": null
+    },
+    "Shawarma spice mix": {
+      "variations": [
+        {
+          "variation_name": "Shawarma spice mix",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Shawarma_spice.jpg",
+      "external_image": null
+    },
+    "Mushrooms": {
+      "variations": [
+        {
+          "variation_name": "Button mushrooms (quartered)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Button_Mushroom.jpg",
+      "external_image": "https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=100&h=100&fit=crop&crop=center"
+    },
+    "Orange Juice": {
+      "variations": [
+        {
+          "variation_name": "Orange juice (fresh)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "ml"
+      ],
+      "local_image": "Orange_Juice.jpg",
+      "external_image": null
+    },
+    "Palm Sugar": {
+      "variations": [
+        {
+          "variation_name": "Palm sugar",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Palm_Sugar.jpg",
+      "external_image": null
+    },
+    "Mandarin pancakes": {
+      "variations": [
+        {
+          "variation_name": "Mandarin pancakes (thin wheat flour pancakes)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Gluten"
+      ],
+      "common_units": [
+        "pieces"
+      ],
+      "local_image": "Mandarin_pancakes.jpg",
+      "external_image": null
+    },
+    "Paprika": {
+      "variations": [
+        {
+          "variation_name": "Paprika",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Paprika.jpg",
+      "external_image": null
+    },
+    "Shortcrust pastry": {
+      "variations": [
+        {
+          "variation_name": "Shortcrust pastry (ready-made or homemade)",
+          "variation_local_image": "Red_Kidney_Beans.jpg",
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Gluten"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Shortcrust_pastry.jpg",
+      "external_image": null
+    },
+    "Pear": {
+      "variations": [
+        {
+          "variation_name": "Pear, grated",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Pear.jpg",
+      "external_image": null
+    },
+    "Pearl Onions": {
+      "variations": [
+        {
+          "variation_name": "Pearl onions (peeled)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Pearl_onion.jpg",
+      "external_image": null
+    },
+    "Pickles": {
+      "variations": [
+        {
+          "variation_name": "Pickle slices",
+          "variation_local_image": null,
+          "variation_external_image": null
+        },
+        {
+          "variation_name": "Pickled carrots and daikon",
+          "variation_local_image": "Pickled_Carrot.jpg",
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Pickle_slice.jpg",
+      "external_image": null
+    },
+    "Pistachios": {
+      "variations": [
+        {
+          "variation_name": "Chopped pistachios",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Tree Nuts"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Pistachios.jpg",
+      "external_image": null
+    },
+    "Pita Bread": {
+      "variations": [
+        {
+          "variation_name": "Pita bread",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Gluten"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Pita_Bread.jpg",
+      "external_image": null
+    },
+    "Pizza Dough": {
+      "variations": [
+        {
+          "variation_name": "Pizza dough",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Gluten"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Pizza_Dough.jpg",
+      "external_image": null
+    },
+    "Raisins": {
+      "variations": [
+        {
+          "variation_name": "Raisins",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Raisin.jpg",
+      "external_image": null
+    },
+    "Red Chili Powder": {
+      "variations": [
+        {
+          "variation_name": "Red chili powder",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Chilli_Powder.jpg",
+      "external_image": null
+    },
+    "Rice": {
+      "variations": [
+        {
+          "variation_name": "Cooked rice (for serving, optional)",
+          "variation_local_image": "Red_Kidney_Beans.jpg",
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "optional"
+      ],
+      "local_image": "Cooked_Rice.jpg",
+      "external_image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=100&h=100&fit=crop&crop=center"
+    },
+    "Rice Flour": {
+      "variations": [
+        {
+          "variation_name": "Rice flour",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Rice_Flour.jpg",
+      "external_image": null
+    },
+    "Rice Paper": {
+      "variations": [
+        {
+          "variation_name": "Rice paper wrappers",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "sheet"
+      ],
+      "local_image": "Rice_Paper_Wrapper.jpg",
+      "external_image": null
+    },
+    "Salsa": {
+      "variations": [
+        {
+          "variation_name": "Salsa roja or salsa verde (for filling)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Salsa_Roja.jpg",
+      "external_image": null
+    },
+    "Salt": {
+      "variations": [
+        {
+          "variation_name": "Salt",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": false,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Salt.jpg",
+      "external_image": "https://images.unsplash.com/photo-1518835925295-e7ca0e3b89e6?w=100&h=100&fit=crop&crop=center"
+    },
+    "Sea Salt": {
+      "variations": [
+        {
+          "variation_name": "Sea salt",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Salt.jpg",
+      "external_image": null
+    },
+    "Semolina Flour": {
+      "variations": [
+        {
+          "variation_name": "Semolina flour (for dusting)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Gluten"
+      ],
+      "common_units": [
+        "optional"
+      ],
+      "local_image": "Semolina.jpg",
+      "external_image": null
+    },
+    "Sesame Oil": {
+      "variations": [
+        {
+          "variation_name": "Sesame oil",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Sesame"
+      ],
+      "common_units": [
+        "ml"
+      ],
+      "local_image": "Sesame_Oil.jpg",
+      "external_image": null
+    },
+    "Vegetable Shortening": {
+      "variations": [
+        {
+          "variation_name": "Vegetable shortening or lard",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Lard.jpg",
+      "external_image": null
+    },
+    "Spaghetti": {
+      "variations": [
+        {
+          "variation_name": "Spaghetti",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Gluten"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Spaghetti.jpg",
+      "external_image": null
+    },
+    "Star Anise": {
+      "variations": [
+        {
+          "variation_name": "Star anise",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "piece"
+      ],
+      "local_image": "Star_Anise.jpg",
+      "external_image": null
+    },
+    "Sushi Rice": {
+      "variations": [
+        {
+          "variation_name": "Sushi rice (short-grain, cooked)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Sushi_Rice.jpg",
+      "external_image": null
+    },
+    "Sweet and Sour Sauce": {
+      "variations": [
+        {
+          "variation_name": "Sweet and sour sauce (prepared or homemade)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Soy"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Sweet_and_Sour_Sauce.jpg",
+      "external_image": null
+    },
+    "Tahini": {
+      "variations": [
+        {
+          "variation_name": "Tahini (sesame paste)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Sesame"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Tahini.jpg",
+      "external_image": null
+    },
+    "Tamarind": {
+      "variations": [
+        {
+          "variation_name": "Tamarind paste",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Tarmarind_Paste.jpg",
+      "external_image": null
+    },
+    "Noodles": {
+      "variations": [
+        {
+          "variation_name": "Egg noodles (fresh or dried)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Gluten"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Egg_Noodles.jpg",
+      "external_image": "https://images.unsplash.com/photo-1551462147-ff29053bfc14?w=100&h=100&fit=crop&crop=center"
+    },
+    "Thyme": {
+      "variations": [
+        {
+          "variation_name": "Fresh thyme sprigs",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "sprig"
+      ],
+      "local_image": "Thyme.jpg",
+      "external_image": "https://images.unsplash.com/photo-1618164435735-413d3b066c9a?w=100&h=100&fit=crop&crop=center"
+    },
+    "Turmeric": {
+      "variations": [
+        {
+          "variation_name": "Turmeric powder",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Turmeric.jpg",
+      "external_image": null
+    },
+    "Vanilla Extract": {
+      "variations": [
+        {
+          "variation_name": "Vanilla extract",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "ml"
+      ],
+      "local_image": "Vanilla.jpg",
+      "external_image": null
+    },
+    "Walnuts": {
+      "variations": [
+        {
+          "variation_name": "Chopped walnuts",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Tree Nuts"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Walnut.jpg",
+      "external_image": null
+    },
+    "White Vinegar": {
+      "variations": [
+        {
+          "variation_name": "White vinegar",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [],
+      "common_units": [
+        "ml"
+      ],
+      "local_image": "White_Vinegar.jpg",
+      "external_image": null
+    },
+    "White Wine": {
+      "variations": [
+        {
+          "variation_name": "Dry white wine",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Sulfites"
+      ],
+      "common_units": [
+        "ml"
+      ],
+      "local_image": "Dry_White_Wine.jpg",
+      "external_image": null
+    },
+    "Whole Spices": {
+      "variations": [
+        {
+          "variation_name": "Whole spices (bay leaf, cloves, cardamom, cinnamon stick)",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": false,
+      "primary_allergens": [],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": "Whole_Spice.jpg",
+      "external_image": null
+    }
+  }
+}
