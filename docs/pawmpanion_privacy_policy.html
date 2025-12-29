@@ -1,138 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Pawmpanion - Privacy Policy</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pawmpanion – Privacy Policy</title>
   <style>
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      background:#f7fafc;
-      color:#0f172a;
-      margin:0;
-      padding:24px;
-      -webkit-font-smoothing:antialiased;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #0f172a;
+      color: #e5e7eb;
+      margin: 0;
+      padding: 24px;
+      line-height: 1.6;
     }
-    .card {
-      max-width:900px;
-      margin:24px auto;
-      background:white;
-      padding:28px;
-      border-radius:12px;
-      box-shadow:0 8px 30px rgba(15,23,42,0.06);
+    .container {
+      max-width: 900px;
+      margin: auto;
     }
-    h1 { color:#7c3aed; margin:0 0 8px 0; font-size:28px; }
-    .meta { color:#475569; margin-bottom:18px; }
-    h2 { color:#0f172a; margin-top:22px; margin-bottom:8px; font-size:18px; }
-    p { margin:10px 0; color:#334155; line-height:1.6; }
-    ul { margin:8px 0 12px 20px; }
-    li { margin:7px 0; }
-    a { color:#7c3aed; text-decoration:none; }
-    a:hover { text-decoration:underline; }
-    .muted { color:#64748b; font-size:14px; }
-    .contact { background:#f1f5f9; padding:14px; border-radius:8px; margin-top:16px; }
-    footer { margin-top:22px; text-align:center; color:#94a3b8; font-size:13px; }
-    .note { font-size:13px; color:#475569; background:#fbf8ff; padding:10px; border-radius:8px; margin-top:12px; }
+    h1, h2 {
+      color: #ffffff;
+    }
+    a {
+      color: #60a5fa;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #9ca3af;
+    }
   </style>
 </head>
 <body>
-  <!-- Citation: Leviathan App Architecture doc for app behaviour and data flows. --> 
-  <!-- :contentReference[oaicite:1]{index=1} -->
+  <div class="container">
+    <h1>Pawmpanion Privacy Policy</h1>
+    <p><strong>Last updated:</strong> December 2025</p>
 
-  <main class="card" role="main">
-    <header>
-      <h1>Pawmpanion — Privacy Policy</h1>
-      <div class="meta">
-        Effective date: December 2, 2025<br>
-        Last updated: December 2, 2025
-      </div>
-    </header>
+    <p>
+      Pawmpanion respects your privacy. This Privacy Policy explains how information is handled
+      when you use the Pawmpanion mobile application (“App”).
+    </p>
 
-    <p>Pawmpanion (“we”, “our”, or “the App”) is an AI-powered companion app that lets you chat with expressive animal personas, collect Core Memories, and build bond levels. We respect your privacy and keep data handling transparent, secure, and minimal. This policy explains what we collect, why we collect it, and how to manage your data.</p>
+    <h2>1. Information We Collect</h2>
+    <p>
+      Pawmpanion is designed to be local-first. We do not require you to create an account and
+      do not collect personal information such as your name, email address, phone number, or
+      physical address.
+    </p>
 
-    <h2>1. Summary — the quick version</h2>
+    <p>
+      Chat conversations, preferences, and companion interactions are stored locally on your
+      device. This data is used solely to provide the app’s functionality and is not shared with us.
+    </p>
+
+    <h2>2. Audio and Microphone Access</h2>
+    <p>
+      If you choose to use voice input features, the app may request access to your device’s
+      microphone to convert your spoken words into text. Audio is processed only to enable
+      this feature and is not stored or used for tracking or advertising purposes.
+    </p>
+
+    <h2>3. Third-Party Services</h2>
+    <p>
+      Pawmpanion uses third-party services solely to provide core functionality:
+    </p>
     <ul>
-      <li><strong>No ads.</strong> Pawmpanion does not display advertising.</li>
-      <li><strong>Local-first data:</strong> Chats, Souls, Core Memories, and bond data are stored on your device by default.</li>
-      <li><strong>Subscriptions:</strong> We use RevenueCat to manage purchases and entitlements (no payment card data is handled by us).</li>
-      <li><strong>LLM calls:</strong> The app calls a cloud generative model (Gemini) to produce replies and TTS audio. See Section 3 for details.</li>
+      <li>
+        <strong>Google Gemini API</strong> – Used to generate AI responses. Message content is
+        sent securely to generate replies and is not used for advertising.
+      </li>
+      <li>
+        <strong>RevenueCat</strong> – Used to manage in-app subscriptions. Payment details are
+        handled entirely by Apple App Store or Google Play and are never accessible to us.
+      </li>
     </ul>
 
-    <h2>2. Information we collect</h2>
+    <h2>4. In-App Purchases</h2>
+    <p>
+      Pawmpanion offers optional auto-renewing subscriptions. All purchases are processed
+      through the App Store or Google Play. We do not collect or store payment information.
+    </p>
 
-    <h3>2.1 Data stored locally on your device</h3>
-    <p>By design, the following user data is stored locally on your device (SQLite / AsyncStorage):</p>
-    <ul>
-      <li>Chat transcripts with each animal persona (messages you send and replies from the persona).</li>
-      <li>Core Memories — collectible milestone records and their rarities (used to award bond points).</li>
-      <li>Bond scores and progression state (used to compute bond level and unlocks).</li>
-      <li>Selected persona/avatar IDs and UI preferences (theme, last selected persona).</li>
-    </ul>
+    <h2>5. Data Usage</h2>
+    <p>
+      We do not use your data for advertising, marketing, tracking, or analytics. Pawmpanion
+      does not show ads and does not sell or share user data with third parties.
+    </p>
 
-    <h3>2.2 Information used for subscription management</h3>
-    <p>We use RevenueCat to manage subscriptions and entitlements. RevenueCat will store and process purchase receipts and entitlement state. We do not store payment card details — Apple handles payment processing for iOS purchases.</p>
+    <h2>6. Data Security</h2>
+    <p>
+      Your data is stored locally on your device. While no method of storage is completely
+      secure, we take reasonable measures to ensure the app operates securely.
+    </p>
 
-    <h3>2.3 Technical & diagnostic information</h3>
-    <ul>
-      <li>Device model, OS version, app version, and crash logs (used to improve reliability).</li>
-      <li>Non-identifying usage metrics and feature diagnostics (only if you enable diagnostic logging in app settings).</li>
-    </ul>
-
-    <h2>3. How we use data</h2>
-    <ul>
-      <li><strong>To power conversations:</strong> When you send a message, the app may send the message to a generative language model (Gemini) to produce a persona reply. This is required for the core function of the product.</li>
-      <li><strong>To synthesize TTS audio:</strong> We may request Gemini TTS (or fall back to native TTS) to produce persona voices for audio playback.</li>
-      <li><strong>To manage subscriptions:</strong> We use RevenueCat to check entitlements and show Premium/Elite features.</li>
-      <li><strong>To improve app stability:</strong> Crash logs help us fix bugs — they are not used for advertising or profiling.</li>
-    </ul>
-
-    <h2>4. Third-party services we use</h2>
-    <h3>4.1 RevenueCat</h3>
-    <p>Purpose: subscription management and entitlements. Data shared: purchase receipts and entitlement state. Learn more at <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">revenuecat.com/privacy</a>.</p>
-
-    <h3>4.2 Gemini / Cloud LLM</h3>
-    <p>Purpose: generate persona replies and high-quality TTS audio when enabled. The exact fields sent depend on app configuration and privacy toggles. Please note: the Gemini API provider’s privacy policy applies to data processed by the model provider.</p>
-
-    <h3>4.3 Platform services</h3>
-    <p>We rely on Apple / Google platform services for in-app billing, and the platform provider's terms apply to payment processing and receipts.</p>
-
-    <h2>5. Where your data is stored</h2>
-    <ul>
-      <li><strong>Local on your device:</strong> Chat history, Core Memories, and bond scores.</li>
-      <li><strong>Third party:</strong> Subscription receipts & entitlement state (RevenueCat). Cloud LLM requests are sent to the LLM provider to get a reply when you interact with a persona. We do not run a first-party backend or permanently store user chat transcripts on our servers.</li>
-    </ul>
-
-    <h2>6. How long we keep your data</h2>
-    <p>Local data remains on your device until you uninstall the app, or until you choose to delete it from within the app (delete chat / reset). Subscription records are kept by RevenueCat/Apple per their policies.</p>
-
-    <h2>7. Your choices</h2>
-    <ul>
-      <li><strong>Remove local data:</strong> Uninstalling the app removes local chat data. You can also clear chats, memories, and bonds from the app UI if provided.</li>
-      <li><strong>Manage subscription:</strong> Cancel, manage, or restore purchases via your Apple ID / RevenueCat restore flow in the app.</li>
-      <li><strong>Diagnostics:</strong> You may opt out of sending diagnostic logs if the app offers a diagnostics toggle.</li>
-    </ul>
+    <h2>7. Data Deletion</h2>
+    <p>
+      You may delete all app data at any time by uninstalling the app from your device.
+    </p>
 
     <h2>8. Children</h2>
-    <p>Pawmpanion is rated 4+ and is suitable for all ages. We do not knowingly collect personal information from children under 13 without parental consent. If you believe we have collected such information, please contact us immediately.</p>
+    <p>
+      Pawmpanion is not intended for use by children under the age of 13. We do not knowingly
+      collect personal information from children under 13. If you believe that a child under
+      13 has provided personal information through the app, please contact us and we will take
+      appropriate steps to delete such information.
+    </p>
 
-    <h2>9. Security</h2>
-    <p>We use reasonable administrative, technical, and physical measures to protect data stored in the app and data transmitted to third parties (e.g., encryption for network requests). However, no method of transmission over the internet or method of electronic storage is 100% secure.</p>
+    <h2>9. Changes to This Policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time. Any changes will be reflected on
+      this page with an updated revision date.
+    </p>
 
-    <h2>10. International transfers</h2>
-    <p>Because the app may call cloud services located in different jurisdictions (LLM provider, RevenueCat), data transmitted to those services may be processed outside your country. By using the app you acknowledge these transfers for the limited purpose of generating replies and managing subscriptions.</p>
-
-    <h2>11. Policy updates</h2>
-    <p>We may change this Privacy Policy from time to time. When we do, we will update the “Last updated” date shown at the top of this page. Continued use of the app after changes indicates acceptance of the updated policy.</p>
-
-    <h2>12. Contact us</h2>
-    <div class="contact">
-      <p>If you have questions about this privacy policy or wish to exercise your rights, contact us at:</p>
-      <p><a href="mailto:sleekenddesigns@gmail.com">sleekenddesigns@gmail.com</a></p>
-    </div>
+    <h2>10. Contact Us</h2>
+    <p>
+      If you have any questions about this Privacy Policy, please contact us at:
+      <br />
+      <a href="mailto:sleekenddesigns@gmail.com">sleekenddesigns@gmail.com</a>
+    </p>
 
     <footer>
-      <p class="muted">&copy; 2025 Simplivio. All rights reserved.</p>
+      © 2025 Pawmpanion. All rights reserved.
     </footer>
-  </main>
+  </div>
 </body>
 </html>
