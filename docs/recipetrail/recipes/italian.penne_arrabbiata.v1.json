@@ -1,0 +1,133 @@
+{
+  "id": "italian.penne_arrabbiata.v1",
+  "primaryCuisine": "Italian",
+  "categories": ["Main Course"],
+  "source": "server",
+  "version": 1,
+  "recipe_name": "Penne Arrabbiata",
+  "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400&h=300&fit=crop",
+  "description": "Penne Arrabbiata is a classic Roman pasta dish known for its bold heat from chili flakes, balanced by p, olive oil, and a simple tomato sauce. It is a quick, rustic, and intensely flavorful vegan pasta.",
+  "calories_per_serving": 420,
+  "servings_variable": "n",
+  "ingredients": [
+    {
+      "ingredient_description": "Penne pasta",
+      "quantity_per_serving": 90,
+      "unit": "grams",
+      "allergen": "Gluten"
+    },
+    {
+      "ingredient_description": "Olive Oil",
+      "quantity_per_serving": 15,
+      "unit": "ml"
+    },
+    {
+      "ingredient_description": "Garlic",
+      "quantity_per_serving": 6,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Chili Flakes",
+      "quantity_per_serving": 1.5,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Tomato Sauce",
+      "quantity_per_serving": 120,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Salt",
+      "quantity_per_serving": 2,
+      "unit": "grams"
+    },
+    {
+      "ingredient_description": "Parsley",
+      "quantity_per_serving": 2,
+      "unit": "grams"
+    }
+  ],
+  "preparation": {
+    "prep_time_minutes": 10,
+    "steps": [
+      {
+        "step": "Finely chop the {{garlic}} and parsley.",
+        "variables": {
+          "garlic": { "quantity_per_serving": 6, "unit": "grams" }
+        }
+      },
+      {
+        "step": "Bring a large pot of salted water to a boil for cooking the pasta."
+      }
+    ]
+  },
+  "cooking": {
+    "cook_time_minutes": 15,
+    "steps": [
+      {
+        "step": "Cook the penne in boiling water until al dente, then reserve some pasta water and drain."
+      },
+      {
+        "step": "Heat {{olive_oil}} in a pan over medium heat and gently sauté the garlic until fragrant.",
+        "variables": {
+          "olive_oil": { "quantity_per_serving": 15, "unit": "ml" }
+        }
+      },
+      {
+        "step": "Add chili flakes and stir briefly to release heat without burning."
+      },
+      {
+        "step": "Pour in the tomato sauce, season with salt, and simmer for 8–10 minutes until slightly thickened."
+      },
+      {
+        "step": "Add the cooked pasta to the sauce, tossing well. Use reserved pasta water if needed to loosen."
+      },
+      {
+        "step": "Finish with chopped parsley and serve immediately."
+      }
+    ]
+  },
+  "nutrition": {
+    "macronutrients_per_serving": {
+      "carbohydrates": { "amount": 65, "unit": "g", "percent": 62 },
+      "protein": { "amount": 11, "unit": "g", "percent": 11 },
+      "fat": { "amount": 14, "unit": "g", "percent": 27 }
+    },
+    "caloric_sources_per_serving": {
+      "carbs_kcal": 260,
+      "protein_kcal": 44,
+      "fat_kcal": 126,
+      "total_kcal": 430
+    },
+    "micronutrients_per_serving": {
+      "sodium": { "amount": 520, "unit": "mg", "percent_dv": 23 },
+      "fiber": { "amount": 6, "unit": "g", "percent_dv": 21 },
+      "calcium": { "amount": 45, "unit": "mg", "percent_dv": 3 },
+      "iron": { "amount": 2.8, "unit": "mg", "percent_dv": 16 },
+      "vitamin_a": { "amount": 190, "unit": "mcg", "percent_dv": 21 },
+      "vitamin_c": { "amount": 9, "unit": "mg", "percent_dv": 10 }
+    },
+    "quick_stats_per_serving": {
+      "calories": 420,
+      "sugar": { "amount": 7, "unit": "g" },
+      "saturated_fat": { "amount": 2, "unit": "g" },
+      "cholesterol": { "amount": 0, "unit": "mg" },
+      "serving_size": "1 serving"
+    }
+  },
+  "filters": {
+    "ingredient names": [
+      "Olive Oil",
+      "Garlic",
+      "Chili Flakes",
+      "Tomato Sauce",
+      "Salt",
+      "Parsley"
+    ],
+    "Meal Type": ["Dinner"],
+    "Avoid Allergens": ["Gluten"],
+    "Diet": ["Vegan"],
+    "Duration": ["15-30 min"],
+    "Nutrition": ["Low Sugar"]
+  }
+}
