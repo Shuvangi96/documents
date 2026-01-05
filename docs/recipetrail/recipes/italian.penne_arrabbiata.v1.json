@@ -6,7 +6,7 @@
   "version": 1,
   "recipe_name": "Penne Arrabbiata",
   "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400&h=300&fit=crop",
-  "description": "Penne Arrabbiata is a classic Roman pasta dish known for its bold heat from chili flakes, balanced by p, olive oil, and a simple tomato sauce. It is a quick, rustic, and intensely flavorful vegan pasta.",
+  "description": "Penne Arrabbiata is a classic Roman pasta dish known for its bold heat from chili flakes, balanced by garlic, olive oil, and a simple tomato sauce. It is a quick, rustic, and intensely flavorful vegan pasta.",
   "calories_per_serving": 420,
   "servings_variable": "n",
   "ingredients": [
@@ -118,6 +118,7 @@
   "filters": {
     "ingredient names": [
       "Olive Oil",
+      "Penne",
       "Garlic",
       "Chili Flakes",
       "Tomato Sauce",
