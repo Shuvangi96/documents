@@ -57,6 +57,11 @@
       "id": "british.gingerbread_cake.v1",
       "path": "recipes/british.gingerbread_cake.v1.json",
       "image": "recipes/british.gingerbread_cake.jpg"
+    },
+    {
+      "id": "italian.penne_arrabbiata.v1",
+      "path": "recipes/italian.penne_arrabbiata.v1.json",
+      "image": "recipes/italian.penne_arrabbiata.jpg"
     }
   ],
 

@@ -3610,6 +3610,24 @@
       "local_image": "Lasagna_Noodles.jpg",
       "external_image": null
     },
+    "Penne": {
+      "variations": [
+        {
+          "variation_name": "Penne pasta",
+          "variation_local_image": null,
+          "variation_external_image": null
+        }
+      ],
+      "visible": true,
+      "primary_allergens": [
+        "Gluten"
+      ],
+      "common_units": [
+        "grams"
+      ],
+      "local_image": null,
+      "external_image": "https://shuvangi96.github.io/documents/recipetrail/ingredients/Penne.jpg"
+    },
     "Macaroni": {
       "variations": [
         {
